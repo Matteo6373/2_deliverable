@@ -1,0 +1,1043 @@
+g++-9.1.0 (GCC) 9.1.0
+Copyright (C) 2019 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+The running nodes are hpc-c12-node32.unitn.it hpc-c12-node32.unitn.it hpc-c12-node32.unitn.it hpc-c12-node32.unitn.it hpc-c12-node32.unitn.it hpc-c12-node32.unitn.it hpc-c12-node32.unitn.it hpc-c12-node32.unitn.it hpc-c12-node32.unitn.it hpc-c12-node32.unitn.it hpc-c12-node32.unitn.it hpc-c12-node32.unitn.it hpc-c12-node32.unitn.it hpc-c12-node32.unitn.it hpc-c12-node32.unitn.it hpc-c12-node32.unitn.it hpc-c12-node32.unitn.it hpc-c12-node32.unitn.it hpc-c12-node32.unitn.it hpc-c12-node32.unitn.it hpc-c12-node32.unitn.it hpc-c12-node32.unitn.it hpc-c12-node32.unitn.it hpc-c12-node32.unitn.it hpc-c12-node32.unitn.it hpc-c12-node32.unitn.it hpc-c12-node32.unitn.it hpc-c12-node32.unitn.it hpc-c12-node32.unitn.it hpc-c12-node32.unitn.it hpc-c12-node32.unitn.it hpc-c12-node32.unitn.it hpc-c12-node32.unitn.it hpc-c12-node32.unitn.it hpc-c12-node32.unitn.it hpc-c12-node32.unitn.it hpc-c12-node32.unitn.it hpc-c12-node32.unitn.it hpc-c12-node32.unitn.it hpc-c12-node32.unitn.it hpc-c12-node32.unitn.it hpc-c12-node32.unitn.it hpc-c12-node32.unitn.it hpc-c12-node32.unitn.it hpc-c12-node32.unitn.it hpc-c12-node32.unitn.it hpc-c12-node32.unitn.it hpc-c12-node32.unitn.it hpc-c12-node32.unitn.it hpc-c12-node32.unitn.it hpc-c12-node32.unitn.it hpc-c12-node32.unitn.it hpc-c12-node32.unitn.it hpc-c12-node32.unitn.it hpc-c12-node32.unitn.it hpc-c12-node32.unitn.it hpc-c12-node32.unitn.it hpc-c12-node32.unitn.it hpc-c12-node32.unitn.it hpc-c12-node32.unitn.it hpc-c12-node32.unitn.it hpc-c12-node32.unitn.it hpc-c12-node32.unitn.it hpc-c12-node32.unitn.it
+The running nodes are hpc-c12-node32.unitn.it
+Node: hpc-c12-node32.unitn.it
+Architecture:          x86_64
+CPU op-mode(s):        32-bit, 64-bit
+Byte Order:            Little Endian
+CPU(s):                96
+On-line CPU(s) list:   0-95
+Thread(s) per core:    1
+Core(s) per socket:    24
+Socket(s):             4
+NUMA node(s):          4
+Vendor ID:             GenuineIntel
+CPU family:            6
+Model:                 85
+Model name:            Intel(R) Xeon(R) Gold 6252N CPU @ 2.30GHz
+Stepping:              7
+CPU MHz:               2300.000
+BogoMIPS:              4600.00
+Virtualization:        VT-x
+L1d cache:             32K
+L1i cache:             32K
+L2 cache:              1024K
+L3 cache:              36608K
+NUMA node0 CPU(s):     0,4,8,12,16,20,24,28,32,36,40,44,48,52,56,60,64,68,72,76,80,84,88,92
+NUMA node1 CPU(s):     1,5,9,13,17,21,25,29,33,37,41,45,49,53,57,61,65,69,73,77,81,85,89,93
+NUMA node2 CPU(s):     2,6,10,14,18,22,26,30,34,38,42,46,50,54,58,62,66,70,74,78,82,86,90,94
+NUMA node3 CPU(s):     3,7,11,15,19,23,27,31,35,39,43,47,51,55,59,63,67,71,75,79,83,87,91,95
+Flags:                 fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb cat_l3 cdp_l3 invpcid_single intel_ppin ssbd mba rsb_ctxsw ibrs ibpb stibp ibrs_enhanced tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb intel_pt avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts pku ospke avx512_vnni md_clear spec_ctrl intel_stibp flush_l1d arch_capabilities
+process= 1      MATRIX SIZE = 64
+          |  sequential time   |   mpi time(column) |   mpi time(row)   |  speedup(column)   | efficiency(column)  |   speedup(row)    |  efficiency(row)
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+1' attempt|    0.000006 sec    |   0.000025 sec    |   0.000036 sec    |   0.240385 sec    |   24.038462 sec    |   0.163399 sec    |   16.339869 sec
+2' attempt|    0.000006 sec    |   0.000023 sec    |   0.000036 sec    |   0.260417 sec    |   26.041667 sec    |   0.164474 sec    |   16.447368 sec
+3' attempt|    0.000006 sec    |   0.000023 sec    |   0.000048 sec    |   0.260417 sec    |   26.041667 sec    |   0.123153 sec    |   12.315271 sec
+4' attempt|    0.000006 sec    |   0.000023 sec    |   0.000036 sec    |   0.260417 sec    |   26.041667 sec    |   0.163399 sec    |   16.339869 sec
+5' attempt|    0.000006 sec    |   0.000023 sec    |   0.000034 sec    |   0.260417 sec    |   26.041667 sec    |   0.176056 sec    |   17.605634 sec
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+average   |    0.000006 sec    |   0.000023 sec    |   0.000038 sec    |   0.256148 sec    |   25.614754 sec    |   0.155666 sec    |   15.566625 sec
+
+          |  bandwidth(seq)    |  bandwidth(column) |  bandwidth(row)
+--------------------------------------------------------------------
+1' attempt|    10.240000 GB/s   |   2.462740 GB/s   |   3.347222 GB/s
+2' attempt|    10.240000 GB/s   |   2.667969 GB/s   |   3.369243 GB/s
+3' attempt|    10.240000 GB/s   |   2.667969 GB/s   |   2.522783 GB/s
+4' attempt|    10.240000 GB/s   |   2.667969 GB/s   |   3.347222 GB/s
+5' attempt|    10.240000 GB/s   |   2.667969 GB/s   |   3.606514 GB/s
+---------------------------------------------------------------------
+average   |    10.240000 GB/s   |   2.624232 GB/s   |   3.188823 GB/s
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+process= 2      MATRIX SIZE = 64
+          |  sequential time   |   mpi time(column) |   mpi time(row)   |  speedup(column)   | efficiency(column)  |   speedup(row)    |  efficiency(row)
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+1' attempt|    0.000003 sec    |   0.000021 sec    |   0.000036 sec    |   0.162791 sec    |   8.139535 sec    |   0.091503 sec    |   4.575163 sec
+2' attempt|    0.000003 sec    |   0.000026 sec    |   0.000036 sec    |   0.120370 sec    |   6.018519 sec    |   0.084967 sec    |   4.248366 sec
+3' attempt|    0.000003 sec    |   0.000023 sec    |   0.000036 sec    |   0.142857 sec    |   7.142857 sec    |   0.092105 sec    |   4.605263 sec
+4' attempt|    0.000003 sec    |   0.000017 sec    |   0.000037 sec    |   0.194444 sec    |   9.722222 sec    |   0.090323 sec    |   4.516129 sec
+5' attempt|    0.000003 sec    |   0.000017 sec    |   0.000044 sec    |   0.200000 sec    |   10.000000 sec    |   0.076503 sec    |   3.825137 sec
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+average   |    0.000003 sec    |   0.000021 sec    |   0.000038 sec    |   0.158986 sec    |   7.949309 sec    |   0.086683 sec    |   4.334171 sec
+
+          |  bandwidth(seq)    |  bandwidth(column) |  bandwidth(row)
+--------------------------------------------------------------------
+1' attempt|    18.285714 GB/s   |   2.979651 GB/s   |   3.348039 GB/s
+2' attempt|    19.692308 GB/s   |   2.372685 GB/s   |   3.348039 GB/s
+3' attempt|    18.285714 GB/s   |   2.614796 GB/s   |   3.370066 GB/s
+4' attempt|    18.285714 GB/s   |   3.559028 GB/s   |   3.304839 GB/s
+5' attempt|    18.285714 GB/s   |   3.660714 GB/s   |   2.799180 GB/s
+---------------------------------------------------------------------
+average   |    18.550725 GB/s   |   2.952189 GB/s   |   3.217651 GB/s
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+process= 4      MATRIX SIZE = 64
+          |  sequential time   |   mpi time(column) |   mpi time(row)   |  speedup(column)   | efficiency(column)  |   speedup(row)    |  efficiency(row)
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+1' attempt|    0.000004 sec    |   0.007647 sec    |   0.008076 sec    |   0.000468 sec    |   0.011692 sec    |   0.000443 sec    |   0.011071 sec
+2' attempt|    0.000003 sec    |   0.007869 sec    |   0.008075 sec    |   0.000424 sec    |   0.010605 sec    |   0.000413 sec    |   0.010334 sec
+3' attempt|    0.000003 sec    |   0.005875 sec    |   0.008064 sec    |   0.000528 sec    |   0.013189 sec    |   0.000384 sec    |   0.009609 sec
+4' attempt|    0.000003 sec    |   0.012904 sec    |   0.009078 sec    |   0.000240 sec    |   0.006005 sec    |   0.000341 sec    |   0.008536 sec
+5' attempt|    0.000006 sec    |   0.025846 sec    |   0.026081 sec    |   0.000221 sec    |   0.005535 sec    |   0.000219 sec    |   0.005485 sec
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+average   |    0.000004 sec    |   0.012028 sec    |   0.011875 sec    |   0.000313 sec    |   0.007830 sec    |   0.000317 sec    |   0.007931 sec
+
+          |  bandwidth(seq)    |  bandwidth(column) |  bandwidth(row)
+--------------------------------------------------------------------
+1' attempt|    17.066667 GB/s   |   0.007997 GB/s   |   0.015130 GB/s
+2' attempt|    18.285714 GB/s   |   0.007772 GB/s   |   0.015132 GB/s
+3' attempt|    19.692308 GB/s   |   0.010409 GB/s   |   0.015153 GB/s
+4' attempt|    19.692308 GB/s   |   0.004739 GB/s   |   0.013461 GB/s
+5' attempt|    10.666667 GB/s   |   0.002366 GB/s   |   0.004685 GB/s
+---------------------------------------------------------------------
+average   |    16.202532 GB/s   |   0.005084 GB/s   |   0.010290 GB/s
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+process= 8      MATRIX SIZE = 64
+          |  sequential time   |   mpi time(column) |   mpi time(row)   |  speedup(column)   | efficiency(column)  |   speedup(row)    |  efficiency(row)
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+1' attempt|    0.000005 sec    |   0.024004 sec    |   0.024205 sec    |   0.000209 sec    |   0.002607 sec    |   0.000207 sec    |   0.002586 sec
+2' attempt|    0.000003 sec    |   0.024013 sec    |   0.024241 sec    |   0.000139 sec    |   0.001738 sec    |   0.000138 sec    |   0.001721 sec
+3' attempt|    0.000006 sec    |   0.024000 sec    |   0.024241 sec    |   0.000258 sec    |   0.003229 sec    |   0.000256 sec    |   0.003197 sec
+4' attempt|    0.000004 sec    |   0.024005 sec    |   0.023239 sec    |   0.000169 sec    |   0.002111 sec    |   0.000174 sec    |   0.002180 sec
+5' attempt|    0.000003 sec    |   0.023008 sec    |   0.023437 sec    |   0.000135 sec    |   0.001684 sec    |   0.000132 sec    |   0.001653 sec
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+average   |    0.000004 sec    |   0.023806 sec    |   0.023873 sec    |   0.000182 sec    |   0.002278 sec    |   0.000182 sec    |   0.002272 sec
+
+          |  bandwidth(seq)    |  bandwidth(column) |  bandwidth(row)
+--------------------------------------------------------------------
+1' attempt|    12.190476 GB/s   |   0.002553 GB/s   |   0.005053 GB/s
+2' attempt|    18.285714 GB/s   |   0.002552 GB/s   |   0.005046 GB/s
+3' attempt|    9.846154 GB/s   |   0.002553 GB/s   |   0.005046 GB/s
+4' attempt|    15.058824 GB/s   |   0.002553 GB/s   |   0.005263 GB/s
+5' attempt|    19.692308 GB/s   |   0.002663 GB/s   |   0.005219 GB/s
+---------------------------------------------------------------------
+average   |    14.065934 GB/s   |   0.002574 GB/s   |   0.005123 GB/s
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+process= 16      MATRIX SIZE = 64
+          |  sequential time   |   mpi time(column) |   mpi time(row)   |  speedup(column)   | efficiency(column)  |   speedup(row)    |  efficiency(row)
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+1' attempt|    0.000005 sec    |   0.052269 sec    |   0.055255 sec    |   0.000105 sec    |   0.000656 sec    |   0.000099 sec    |   0.000620 sec
+2' attempt|    0.000005 sec    |   0.052705 sec    |   0.056050 sec    |   0.000086 sec    |   0.000537 sec    |   0.000081 sec    |   0.000505 sec
+3' attempt|    0.000006 sec    |   0.044886 sec    |   0.027668 sec    |   0.000127 sec    |   0.000797 sec    |   0.000207 sec    |   0.001293 sec
+4' attempt|    0.000006 sec    |   0.024242 sec    |   0.027611 sec    |   0.000246 sec    |   0.001537 sec    |   0.000216 sec    |   0.001349 sec
+5' attempt|    0.000005 sec    |   0.024337 sec    |   0.027682 sec    |   0.000216 sec    |   0.001347 sec    |   0.000189 sec    |   0.001184 sec
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+average   |    0.000005 sec    |   0.039688 sec    |   0.038853 sec    |   0.000136 sec    |   0.000849 sec    |   0.000139 sec    |   0.000867 sec
+
+          |  bandwidth(seq)    |  bandwidth(column) |  bandwidth(row)
+--------------------------------------------------------------------
+1' attempt|    11.130435 GB/s   |   0.001177 GB/s   |   0.002218 GB/s
+2' attempt|    13.473684 GB/s   |   0.001167 GB/s   |   0.002186 GB/s
+3' attempt|    10.666667 GB/s   |   0.001370 GB/s   |   0.004429 GB/s
+4' attempt|    10.240000 GB/s   |   0.002537 GB/s   |   0.004438 GB/s
+5' attempt|    11.636364 GB/s   |   0.002528 GB/s   |   0.004427 GB/s
+---------------------------------------------------------------------
+average   |    11.327434 GB/s   |   0.001550 GB/s   |   0.003154 GB/s
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+process= 32      MATRIX SIZE = 64
+          |  sequential time   |   mpi time(column) |   mpi time(row)   |  speedup(column)   | efficiency(column)  |   speedup(row)    |  efficiency(row)
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+1' attempt|    0.000005 sec    |   0.052000 sec    |   0.000000 sec    |   0.000101 sec    |   0.000315 sec    |   inf sec    |   inf sec
+2' attempt|    0.000006 sec    |   0.026014 sec    |   0.000000 sec    |   0.000229 sec    |   0.000716 sec    |   25.000000 sec    |   78.125000 sec
+3' attempt|    0.000004 sec    |   0.037010 sec    |   0.000000 sec    |   0.000097 sec    |   0.000302 sec    |   inf sec    |   inf sec
+4' attempt|    0.000003 sec    |   0.022998 sec    |   0.000000 sec    |   0.000135 sec    |   0.000421 sec    |   inf sec    |   inf sec
+5' attempt|    0.000003 sec    |   0.026000 sec    |   0.000000 sec    |   0.000119 sec    |   0.000373 sec    |   inf sec    |   inf sec
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+average   |    0.000004 sec    |   0.032804 sec    |   0.000000 sec    |   0.000128 sec    |   0.000400 sec    |   88.000000 sec    |   275.000000 sec
+
+          |  bandwidth(seq)    |  bandwidth(column) |  bandwidth(row)
+--------------------------------------------------------------------
+1' attempt|    11.636364 GB/s   |   0.001192 GB/s   |   inf GB/s
+2' attempt|    10.240000 GB/s   |   0.002383 GB/s   |   516.000000 GB/s
+3' attempt|    17.066667 GB/s   |   0.001675 GB/s   |   inf GB/s
+4' attempt|    19.692308 GB/s   |   0.002695 GB/s   |   inf GB/s
+5' attempt|    19.692308 GB/s   |   0.002384 GB/s   |   inf GB/s
+---------------------------------------------------------------------
+average   |    14.545455 GB/s   |   0.001890 GB/s   |   2580.000000 GB/s
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+process= 64      MATRIX SIZE = 64
+          |  sequential time   |   mpi time(column) |   mpi time(row)   |  speedup(column)   | efficiency(column)  |   speedup(row)    |  efficiency(row)
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+1' attempt|    0.000004 sec    |   0.061016 sec    |   0.000000 sec    |   0.000063 sec    |   0.000098 sec    |   inf sec    |   inf sec
+2' attempt|    0.000004 sec    |   0.062001 sec    |   0.000000 sec    |   0.000058 sec    |   0.000090 sec    |   inf sec    |   inf sec
+3' attempt|    0.000003 sec    |   0.054998 sec    |   0.000000 sec    |   0.000056 sec    |   0.000088 sec    |   inf sec    |   inf sec
+4' attempt|    0.000003 sec    |   0.062016 sec    |   0.000000 sec    |   0.000050 sec    |   0.000078 sec    |   inf sec    |   inf sec
+5' attempt|    0.000003 sec    |   0.046013 sec    |   0.000000 sec    |   0.000073 sec    |   0.000113 sec    |   inf sec    |   inf sec
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+average   |    0.000003 sec    |   0.057209 sec    |   0.000000 sec    |   0.000059 sec    |   0.000092 sec    |   inf sec    |   inf sec
+
+          |  bandwidth(seq)    |  bandwidth(column) |  bandwidth(row)
+--------------------------------------------------------------------
+1' attempt|    16.000000 GB/s   |   0.001032 GB/s   |   inf GB/s
+2' attempt|    17.066667 GB/s   |   0.001015 GB/s   |   inf GB/s
+3' attempt|    19.692308 GB/s   |   0.001144 GB/s   |   inf GB/s
+4' attempt|    19.692308 GB/s   |   0.001015 GB/s   |   inf GB/s
+5' attempt|    18.285714 GB/s   |   0.001368 GB/s   |   inf GB/s
+---------------------------------------------------------------------
+average   |    18.028169 GB/s   |   0.001100 GB/s   |   inf GB/s
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+process= 1      MATRIX SIZE = 128
+          |  sequential time   |   mpi time(column) |   mpi time(row)   |  speedup(column)   | efficiency(column)  |   speedup(row)    |  efficiency(row)
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+1' attempt|    0.000021 sec    |   0.000055 sec    |   0.000113 sec    |   0.389610 sec    |   38.961039 sec    |   0.189474 sec    |   18.947368 sec
+2' attempt|    0.000032 sec    |   0.000041 sec    |   0.000088 sec    |   0.784884 sec    |   78.488372 sec    |   0.363881 sec    |   36.388140 sec
+3' attempt|    0.000017 sec    |   0.000040 sec    |   0.000089 sec    |   0.416667 sec    |   41.666667 sec    |   0.187668 sec    |   18.766756 sec
+4' attempt|    0.000017 sec    |   0.000040 sec    |   0.000090 sec    |   0.420118 sec    |   42.011834 sec    |   0.188830 sec    |   18.882979 sec
+5' attempt|    0.000017 sec    |   0.000040 sec    |   0.000093 sec    |   0.416667 sec    |   41.666667 sec    |   0.179028 sec    |   17.902813 sec
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+average   |    0.000021 sec    |   0.000043 sec    |   0.000095 sec    |   0.480176 sec    |   48.017621 sec    |   0.219537 sec    |   21.953676 sec
+
+          |  bandwidth(seq)    |  bandwidth(column) |  bandwidth(row)
+--------------------------------------------------------------------
+1' attempt|    11.377778 GB/s   |   4.433442 GB/s   |   4.311842 GB/s
+2' attempt|    7.585185 GB/s   |   5.954215 GB/s   |   5.520553 GB/s
+3' attempt|    14.628571 GB/s   |   6.095982 GB/s   |   5.490952 GB/s
+4' attempt|    14.422535 GB/s   |   6.059911 GB/s   |   5.447141 GB/s
+5' attempt|    14.628571 GB/s   |   6.095982 GB/s   |   5.238171 GB/s
+---------------------------------------------------------------------
+average   |    11.743119 GB/s   |   5.639455 GB/s   |   5.156407 GB/s
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+process= 2      MATRIX SIZE = 128
+          |  sequential time   |   mpi time(column) |   mpi time(row)   |  speedup(column)   | efficiency(column)  |   speedup(row)    |  efficiency(row)
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+1' attempt|    0.000024 sec    |   0.000066 sec    |   0.000142 sec    |   0.361011 sec    |   18.050542 sec    |   0.168350 sec    |   8.417508 sec
+2' attempt|    0.000024 sec    |   0.000061 sec    |   0.000139 sec    |   0.388235 sec    |   19.411765 sec    |   0.169811 sec    |   8.490566 sec
+3' attempt|    0.000022 sec    |   0.000060 sec    |   0.000142 sec    |   0.366534 sec    |   18.326693 sec    |   0.154362 sec    |   7.718121 sec
+4' attempt|    0.000023 sec    |   0.000059 sec    |   0.000141 sec    |   0.381526 sec    |   19.076305 sec    |   0.160202 sec    |   8.010118 sec
+5' attempt|    0.000023 sec    |   0.000077 sec    |   0.000144 sec    |   0.304348 sec    |   15.217391 sec    |   0.161983 sec    |   8.099174 sec
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+average   |    0.000023 sec    |   0.000065 sec    |   0.000142 sec    |   0.357459 sec    |   17.872969 sec    |   0.162908 sec    |   8.145406 sec
+
+          |  bandwidth(seq)    |  bandwidth(column) |  bandwidth(row)
+--------------------------------------------------------------------
+1' attempt|    10.240000 GB/s   |   3.697653 GB/s   |   3.448232 GB/s
+2' attempt|    10.343434 GB/s   |   4.016667 GB/s   |   3.513293 GB/s
+3' attempt|    11.130435 GB/s   |   4.080677 GB/s   |   3.436661 GB/s
+4' attempt|    10.778947 GB/s   |   4.113454 GB/s   |   3.454047 GB/s
+5' attempt|    10.448980 GB/s   |   3.180901 GB/s   |   3.385537 GB/s
+---------------------------------------------------------------------
+average   |    10.578512 GB/s   |   3.782312 GB/s   |   3.447072 GB/s
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+process= 4      MATRIX SIZE = 128
+          |  sequential time   |   mpi time(column) |   mpi time(row)   |  speedup(column)   | efficiency(column)  |   speedup(row)    |  efficiency(row)
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+1' attempt|    0.000017 sec    |   0.013030 sec    |   0.013181 sec    |   0.001299 sec    |   0.032478 sec    |   0.001284 sec    |   0.032105 sec
+2' attempt|    0.000017 sec    |   0.013026 sec    |   0.013186 sec    |   0.001300 sec    |   0.032490 sec    |   0.001284 sec    |   0.032095 sec
+3' attempt|    0.000016 sec    |   0.013021 sec    |   0.013181 sec    |   0.001227 sec    |   0.030671 sec    |   0.001212 sec    |   0.030298 sec
+4' attempt|    0.000016 sec    |   0.013031 sec    |   0.013189 sec    |   0.001244 sec    |   0.031103 sec    |   0.001229 sec    |   0.030731 sec
+5' attempt|    0.000016 sec    |   0.013024 sec    |   0.013184 sec    |   0.001226 sec    |   0.030662 sec    |   0.001212 sec    |   0.030291 sec
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+average   |    0.000016 sec    |   0.013026 sec    |   0.013184 sec    |   0.001259 sec    |   0.031481 sec    |   0.001244 sec    |   0.031104 sec
+
+          |  bandwidth(seq)    |  bandwidth(column) |  bandwidth(row)
+--------------------------------------------------------------------
+1' attempt|    14.422535 GB/s   |   0.018746 GB/s   |   0.037052 GB/s
+2' attempt|    14.422535 GB/s   |   0.018752 GB/s   |   0.037041 GB/s
+3' attempt|    15.283582 GB/s   |   0.018760 GB/s   |   0.037054 GB/s
+4' attempt|    15.058824 GB/s   |   0.018744 GB/s   |   0.037031 GB/s
+5' attempt|    15.283582 GB/s   |   0.018754 GB/s   |   0.037045 GB/s
+---------------------------------------------------------------------
+average   |    14.883721 GB/s   |   0.018751 GB/s   |   0.037045 GB/s
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+process= 8      MATRIX SIZE = 128
+          |  sequential time   |   mpi time(column) |   mpi time(row)   |  speedup(column)   | efficiency(column)  |   speedup(row)    |  efficiency(row)
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+1' attempt|    0.000017 sec    |   0.000051 sec    |   0.000637 sec    |   0.328704 sec    |   4.108796 sec    |   0.026572 sec    |   0.332148 sec
+2' attempt|    0.000017 sec    |   0.000046 sec    |   0.000643 sec    |   0.369792 sec    |   4.622396 sec    |   0.026345 sec    |   0.329314 sec
+3' attempt|    0.000016 sec    |   0.000043 sec    |   0.000679 sec    |   0.368132 sec    |   4.601648 sec    |   0.023525 sec    |   0.294066 sec
+4' attempt|    0.000017 sec    |   0.012840 sec    |   0.010003 sec    |   0.001300 sec    |   0.016248 sec    |   0.001668 sec    |   0.020856 sec
+5' attempt|    0.000017 sec    |   0.000047 sec    |   0.000664 sec    |   0.353535 sec    |   4.419192 sec    |   0.025144 sec    |   0.314296 sec
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+average   |    0.000017 sec    |   0.002605 sec    |   0.002525 sec    |   0.006387 sec    |   0.079839 sec    |   0.006591 sec    |   0.082383 sec
+
+          |  bandwidth(seq)    |  bandwidth(column) |  bandwidth(row)
+--------------------------------------------------------------------
+1' attempt|    14.422535 GB/s   |   4.745370 GB/s   |   0.766841 GB/s
+2' attempt|    14.422535 GB/s   |   5.338542 GB/s   |   0.760297 GB/s
+3' attempt|    15.283582 GB/s   |   5.631868 GB/s   |   0.719452 GB/s
+4' attempt|    14.628571 GB/s   |   0.019033 GB/s   |   0.048838 GB/s
+5' attempt|    14.628571 GB/s   |   5.176768 GB/s   |   0.735991 GB/s
+---------------------------------------------------------------------
+average   |    14.670487 GB/s   |   0.093794 GB/s   |   0.193470 GB/s
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+process= 16      MATRIX SIZE = 128
+          |  sequential time   |   mpi time(column) |   mpi time(row)   |  speedup(column)   | efficiency(column)  |   speedup(row)    |  efficiency(row)
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+1' attempt|    0.000018 sec    |   0.050076 sec    |   0.011311 sec    |   0.000352 sec    |   0.002202 sec    |   0.001560 sec    |   0.009749 sec
+2' attempt|    0.000017 sec    |   0.000108 sec    |   0.002034 sec    |   0.161504 sec    |   1.009403 sec    |   0.008556 sec    |   0.053475 sec
+3' attempt|    0.000016 sec    |   0.000077 sec    |   0.002177 sec    |   0.210526 sec    |   1.315789 sec    |   0.007446 sec    |   0.046540 sec
+4' attempt|    0.000015 sec    |   0.000078 sec    |   0.002162 sec    |   0.198777 sec    |   1.242355 sec    |   0.007169 sec    |   0.044805 sec
+5' attempt|    0.000015 sec    |   0.000077 sec    |   0.014254 sec    |   0.201863 sec    |   1.261646 sec    |   0.001087 sec    |   0.006795 sec
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+average   |    0.000016 sec    |   0.010083 sec    |   0.006388 sec    |   0.001632 sec    |   0.010197 sec    |   0.002575 sec    |   0.016096 sec
+
+          |  bandwidth(seq)    |  bandwidth(column) |  bandwidth(row)
+--------------------------------------------------------------------
+1' attempt|    13.837838 GB/s   |   0.004885 GB/s   |   0.043211 GB/s
+2' attempt|    14.027397 GB/s   |   2.269912 GB/s   |   0.240272 GB/s
+3' attempt|    15.058824 GB/s   |   3.176471 GB/s   |   0.224485 GB/s
+4' attempt|    15.753846 GB/s   |   3.137615 GB/s   |   0.226095 GB/s
+5' attempt|    15.753846 GB/s   |   3.186335 GB/s   |   0.034289 GB/s
+---------------------------------------------------------------------
+average   |    14.840580 GB/s   |   0.024260 GB/s   |   0.076516 GB/s
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+process= 32      MATRIX SIZE = 128
+          |  sequential time   |   mpi time(column) |   mpi time(row)   |  speedup(column)   | efficiency(column)  |   speedup(row)    |  efficiency(row)
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+1' attempt|    0.000019 sec    |   0.025004 sec    |   0.000000 sec    |   0.000744 sec    |   0.002324 sec    |   inf sec    |   inf sec
+2' attempt|    0.000016 sec    |   0.025005 sec    |   0.000000 sec    |   0.000629 sec    |   0.001967 sec    |   66.000000 sec    |   206.250000 sec
+3' attempt|    0.000016 sec    |   0.025016 sec    |   0.000000 sec    |   0.000639 sec    |   0.001996 sec    |   inf sec    |   inf sec
+4' attempt|    0.000015 sec    |   0.025008 sec    |   0.000000 sec    |   0.000610 sec    |   0.001907 sec    |   inf sec    |   inf sec
+5' attempt|    0.000015 sec    |   0.025012 sec    |   0.000000 sec    |   0.000610 sec    |   0.001906 sec    |   64.000000 sec    |   200.000000 sec
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+average   |    0.000016 sec    |   0.025009 sec    |   0.000000 sec    |   0.000646 sec    |   0.002020 sec    |   169.500000 sec    |   529.687500 sec
+
+          |  bandwidth(seq)    |  bandwidth(column) |  bandwidth(row)
+--------------------------------------------------------------------
+1' attempt|    13.128205 GB/s   |   0.009802 GB/s   |   inf GB/s
+2' attempt|    15.515152 GB/s   |   0.009802 GB/s   |   2052.000000 GB/s
+3' attempt|    15.283582 GB/s   |   0.009798 GB/s   |   inf GB/s
+4' attempt|    16.000000 GB/s   |   0.009801 GB/s   |   inf GB/s
+5' attempt|    16.000000 GB/s   |   0.009799 GB/s   |   2052.000000 GB/s
+---------------------------------------------------------------------
+average   |    15.103245 GB/s   |   0.009800 GB/s   |   5130.000000 GB/s
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+process= 64      MATRIX SIZE = 128
+          |  sequential time   |   mpi time(column) |   mpi time(row)   |  speedup(column)   | efficiency(column)  |   speedup(row)    |  efficiency(row)
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+1' attempt|    0.000022 sec    |   0.059010 sec    |   0.000000 sec    |   0.000372 sec    |   0.000581 sec    |   92.000000 sec    |   143.750000 sec
+2' attempt|    0.000019 sec    |   0.051995 sec    |   0.000000 sec    |   0.000367 sec    |   0.000573 sec    |   inf sec    |   inf sec
+3' attempt|    0.000017 sec    |   0.027010 sec    |   0.000000 sec    |   0.000636 sec    |   0.000993 sec    |   72.000000 sec    |   112.500000 sec
+4' attempt|    0.000017 sec    |   0.030011 sec    |   0.000000 sec    |   0.000564 sec    |   0.000881 sec    |   inf sec    |   inf sec
+5' attempt|    0.000016 sec    |   0.045997 sec    |   0.000000 sec    |   0.000352 sec    |   0.000551 sec    |   inf sec    |   inf sec
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+average   |    0.000018 sec    |   0.042805 sec    |   0.000000 sec    |   0.000427 sec    |   0.000667 sec    |   191.500000 sec    |   299.218750 sec
+
+          |  bandwidth(seq)    |  bandwidth(column) |  bandwidth(row)
+--------------------------------------------------------------------
+1' attempt|    11.130435 GB/s   |   0.004170 GB/s   |   2056.000000 GB/s
+2' attempt|    12.800000 GB/s   |   0.004732 GB/s   |   inf GB/s
+3' attempt|    14.222222 GB/s   |   0.009109 GB/s   |   2056.000000 GB/s
+4' attempt|    14.422535 GB/s   |   0.008199 GB/s   |   inf GB/s
+5' attempt|    15.058824 GB/s   |   0.005349 GB/s   |   inf GB/s
+---------------------------------------------------------------------
+average   |    13.368146 GB/s   |   0.005748 GB/s   |   5140.000000 GB/s
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+process= 1      MATRIX SIZE = 256
+          |  sequential time   |   mpi time(column) |   mpi time(row)   |  speedup(column)   | efficiency(column)  |   speedup(row)    |  efficiency(row)
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+1' attempt|    0.000074 sec    |   0.000341 sec    |   0.000627 sec    |   0.217331 sec    |   21.733054 sec    |   0.118206 sec    |   11.820601 sec
+2' attempt|    0.000072 sec    |   0.000317 sec    |   0.000605 sec    |   0.225394 sec    |   22.539444 sec    |   0.118250 sec    |   11.824990 sec
+3' attempt|    0.000071 sec    |   0.000330 sec    |   0.000588 sec    |   0.215884 sec    |   21.588448 sec    |   0.121298 sec    |   12.129817 sec
+4' attempt|    0.000071 sec    |   0.000319 sec    |   0.000600 sec    |   0.223635 sec    |   22.363500 sec    |   0.118839 sec    |   11.883943 sec
+5' attempt|    0.000076 sec    |   0.000319 sec    |   0.000597 sec    |   0.238416 sec    |   23.841555 sec    |   0.127294 sec    |   12.729449 sec
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+average   |    0.000073 sec    |   0.000325 sec    |   0.000603 sec    |   0.223981 sec    |   22.398124 sec    |   0.120743 sec    |   12.074279 sec
+
+          |  bandwidth(seq)    |  bandwidth(column) |  bandwidth(row)
+--------------------------------------------------------------------
+1' attempt|    13.170418 GB/s   |   2.862421 GB/s   |   3.113693 GB/s
+2' attempt|    13.653333 GB/s   |   3.077479 GB/s   |   3.229060 GB/s
+3' attempt|    13.698997 GB/s   |   2.957491 GB/s   |   3.323377 GB/s
+4' attempt|    13.698997 GB/s   |   3.063669 GB/s   |   3.256012 GB/s
+5' attempt|    12.840125 GB/s   |   3.061379 GB/s   |   3.269004 GB/s
+---------------------------------------------------------------------
+average   |    13.403141 GB/s   |   3.002144 GB/s   |   3.236715 GB/s
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+process= 2      MATRIX SIZE = 256
+          |  sequential time   |   mpi time(column) |   mpi time(row)   |  speedup(column)   | efficiency(column)  |   speedup(row)    |  efficiency(row)
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+1' attempt|    0.000089 sec    |   0.000217 sec    |   0.000465 sec    |   0.407895 sec    |   20.394737 sec    |   0.190867 sec    |   9.543356 sec
+2' attempt|    0.000071 sec    |   0.000212 sec    |   0.000487 sec    |   0.335586 sec    |   16.779279 sec    |   0.145864 sec    |   7.293196 sec
+3' attempt|    0.000073 sec    |   0.000231 sec    |   0.000465 sec    |   0.317526 sec    |   15.876289 sec    |   0.157949 sec    |   7.897436 sec
+4' attempt|    0.000071 sec    |   0.000210 sec    |   0.000456 sec    |   0.339022 sec    |   16.951081 sec    |   0.155939 sec    |   7.796965 sec
+5' attempt|    0.000071 sec    |   0.000211 sec    |   0.000472 sec    |   0.338235 sec    |   16.911765 sec    |   0.151086 sec    |   7.554320 sec
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+average   |    0.000075 sec    |   0.000216 sec    |   0.000469 sec    |   0.347452 sec    |   17.372601 sec    |   0.160191 sec    |   8.009561 sec
+
+          |  bandwidth(seq)    |  bandwidth(column) |  bandwidth(row)
+--------------------------------------------------------------------
+1' attempt|    11.010753 GB/s   |   4.491502 GB/s   |   4.203309 GB/s
+2' attempt|    13.744966 GB/s   |   4.612894 GB/s   |   4.009912 GB/s
+3' attempt|    13.298701 GB/s   |   4.222938 GB/s   |   4.201154 GB/s
+4' attempt|    13.744966 GB/s   |   4.660125 GB/s   |   4.286892 GB/s
+5' attempt|    13.698997 GB/s   |   4.633767 GB/s   |   4.139591 GB/s
+---------------------------------------------------------------------
+average   |    13.003175 GB/s   |   4.518255 GB/s   |   4.166116 GB/s
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+process= 4      MATRIX SIZE = 256
+          |  sequential time   |   mpi time(column) |   mpi time(row)   |  speedup(column)   | efficiency(column)  |   speedup(row)    |  efficiency(row)
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+1' attempt|    0.000077 sec    |   0.033278 sec    |   0.000708 sec    |   0.002307 sec    |   0.057674 sec    |   0.108418 sec    |   2.710438 sec
+2' attempt|    0.000076 sec    |   0.012661 sec    |   0.000639 sec    |   0.006026 sec    |   0.150645 sec    |   0.119448 sec    |   2.986189 sec
+3' attempt|    0.000075 sec    |   0.000177 sec    |   0.000611 sec    |   0.424731 sec    |   10.618280 sec    |   0.123341 sec    |   3.083528 sec
+4' attempt|    0.000085 sec    |   0.000169 sec    |   0.000587 sec    |   0.504237 sec    |   12.605932 sec    |   0.144945 sec    |   3.623630 sec
+5' attempt|    0.000073 sec    |   0.000170 sec    |   0.000605 sec    |   0.429173 sec    |   10.729313 sec    |   0.120567 sec    |   3.014184 sec
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+average   |    0.000077 sec    |   0.009291 sec    |   0.000630 sec    |   0.008319 sec    |   0.207983 sec    |   0.122691 sec    |   3.067287 sec
+
+          |  bandwidth(seq)    |  bandwidth(column) |  bandwidth(row)
+--------------------------------------------------------------------
+1' attempt|    12.720497 GB/s   |   0.029349 GB/s   |   2.758418 GB/s
+2' attempt|    12.800000 GB/s   |   0.077140 GB/s   |   3.058044 GB/s
+3' attempt|    12.962025 GB/s   |   5.506048 GB/s   |   3.197697 GB/s
+4' attempt|    11.473389 GB/s   |   5.786017 GB/s   |   3.326228 GB/s
+5' attempt|    13.385621 GB/s   |   5.745442 GB/s   |   3.227935 GB/s
+---------------------------------------------------------------------
+average   |    12.634176 GB/s   |   0.105120 GB/s   |   3.100401 GB/s
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+process= 8      MATRIX SIZE = 256
+          |  sequential time   |   mpi time(column) |   mpi time(row)   |  speedup(column)   | efficiency(column)  |   speedup(row)    |  efficiency(row)
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+1' attempt|    0.000119 sec    |   0.079006 sec    |   0.128299 sec    |   0.001506 sec    |   0.018823 sec    |   0.000927 sec    |   0.011591 sec
+2' attempt|    0.000115 sec    |   0.076917 sec    |   0.032671 sec    |   0.001500 sec    |   0.018753 sec    |   0.003532 sec    |   0.044150 sec
+3' attempt|    0.000098 sec    |   0.013579 sec    |   0.017183 sec    |   0.007181 sec    |   0.089762 sec    |   0.005675 sec    |   0.070937 sec
+4' attempt|    0.000093 sec    |   0.026031 sec    |   0.017430 sec    |   0.003554 sec    |   0.044420 sec    |   0.005307 sec    |   0.066340 sec
+5' attempt|    0.000092 sec    |   0.005032 sec    |   0.021065 sec    |   0.018195 sec    |   0.227434 sec    |   0.004346 sec    |   0.054327 sec
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+average   |    0.000103 sec    |   0.040113 sec    |   0.043330 sec    |   0.002572 sec    |   0.032155 sec    |   0.002381 sec    |   0.029768 sec
+
+          |  bandwidth(seq)    |  bandwidth(column) |  bandwidth(row)
+--------------------------------------------------------------------
+1' attempt|    8.208417 GB/s   |   0.012364 GB/s   |   0.015225 GB/s
+2' attempt|    8.462810 GB/s   |   0.012699 GB/s   |   0.059789 GB/s
+3' attempt|    10.014670 GB/s   |   0.071933 GB/s   |   0.113680 GB/s
+4' attempt|    10.556701 GB/s   |   0.037524 GB/s   |   0.112067 GB/s
+5' attempt|    10.666667 GB/s   |   0.194125 GB/s   |   0.092729 GB/s
+---------------------------------------------------------------------
+average   |    9.463956 GB/s   |   0.024351 GB/s   |   0.045081 GB/s
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+process= 16      MATRIX SIZE = 256
+          |  sequential time   |   mpi time(column) |   mpi time(row)   |  speedup(column)   | efficiency(column)  |   speedup(row)    |  efficiency(row)
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+1' attempt|    0.000079 sec    |   0.011692 sec    |   0.039731 sec    |   0.006790 sec    |   0.042440 sec    |   0.001998 sec    |   0.012489 sec
+2' attempt|    0.000076 sec    |   0.011525 sec    |   0.040731 sec    |   0.006558 sec    |   0.040986 sec    |   0.001856 sec    |   0.011597 sec
+3' attempt|    0.000073 sec    |   0.010544 sec    |   0.041221 sec    |   0.006942 sec    |   0.043387 sec    |   0.001776 sec    |   0.011098 sec
+4' attempt|    0.000072 sec    |   0.010082 sec    |   0.041051 sec    |   0.007118 sec    |   0.044489 sec    |   0.001748 sec    |   0.010926 sec
+5' attempt|    0.000072 sec    |   0.021232 sec    |   0.070581 sec    |   0.003391 sec    |   0.021195 sec    |   0.001020 sec    |   0.006376 sec
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+average   |    0.000074 sec    |   0.013015 sec    |   0.046663 sec    |   0.005715 sec    |   0.035722 sec    |   0.001594 sec    |   0.009963 sec
+
+          |  bandwidth(seq)    |  bandwidth(column) |  bandwidth(row)
+--------------------------------------------------------------------
+1' attempt|    12.300300 GB/s   |   0.083564 GB/s   |   0.049171 GB/s
+2' attempt|    12.921136 GB/s   |   0.084775 GB/s   |   0.047963 GB/s
+3' attempt|    13.342020 GB/s   |   0.092665 GB/s   |   0.047393 GB/s
+4' attempt|    13.607973 GB/s   |   0.096912 GB/s   |   0.047590 GB/s
+5' attempt|    13.562914 GB/s   |   0.046017 GB/s   |   0.027679 GB/s
+---------------------------------------------------------------------
+average   |    13.128205 GB/s   |   0.075070 GB/s   |   0.041866 GB/s
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+process= 32      MATRIX SIZE = 256
+          |  sequential time   |   mpi time(column) |   mpi time(row)   |  speedup(column)   | efficiency(column)  |   speedup(row)    |  efficiency(row)
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+1' attempt|    0.000077 sec    |   0.058011 sec    |   0.000000 sec    |   0.001323 sec    |   0.004136 sec    |   inf sec    |   inf sec
+2' attempt|    0.000074 sec    |   0.078007 sec    |   0.000000 sec    |   0.000951 sec    |   0.002970 sec    |   inf sec    |   inf sec
+3' attempt|    0.000075 sec    |   0.031007 sec    |   0.000000 sec    |   0.002414 sec    |   0.007545 sec    |   inf sec    |   inf sec
+4' attempt|    0.000071 sec    |   0.026007 sec    |   0.000000 sec    |   0.002741 sec    |   0.008566 sec    |   inf sec    |   inf sec
+5' attempt|    0.000070 sec    |   0.026013 sec    |   0.000000 sec    |   0.002685 sec    |   0.008392 sec    |   inf sec    |   inf sec
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+average   |    0.000073 sec    |   0.043809 sec    |   0.000000 sec    |   0.001675 sec    |   0.005235 sec    |   inf sec    |   inf sec
+
+          |  bandwidth(seq)    |  bandwidth(column) |  bandwidth(row)
+--------------------------------------------------------------------
+1' attempt|    12.720497 GB/s   |   0.016850 GB/s   |   inf GB/s
+2' attempt|    13.170418 GB/s   |   0.012531 GB/s   |   inf GB/s
+3' attempt|    13.044586 GB/s   |   0.031526 GB/s   |   inf GB/s
+4' attempt|    13.698997 GB/s   |   0.037586 GB/s   |   inf GB/s
+5' attempt|    13.979522 GB/s   |   0.037577 GB/s   |   inf GB/s
+---------------------------------------------------------------------
+average   |    13.307342 GB/s   |   0.022313 GB/s   |   inf GB/s
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+process= 64      MATRIX SIZE = 256
+          |  sequential time   |   mpi time(column) |   mpi time(row)   |  speedup(column)   | efficiency(column)  |   speedup(row)    |  efficiency(row)
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+1' attempt|    0.000110 sec    |   0.050010 sec    |   0.000000 sec    |   0.002203 sec    |   0.003441 sec    |   inf sec    |   inf sec
+2' attempt|    0.000086 sec    |   0.057015 sec    |   0.000000 sec    |   0.001514 sec    |   0.002365 sec    |   inf sec    |   inf sec
+3' attempt|    0.000082 sec    |   0.031000 sec    |   0.000000 sec    |   0.002630 sec    |   0.004110 sec    |   342.000000 sec    |   534.375000 sec
+4' attempt|    0.000078 sec    |   0.045013 sec    |   0.000000 sec    |   0.001732 sec    |   0.002706 sec    |   327.000000 sec    |   510.937500 sec
+5' attempt|    0.000075 sec    |   0.059003 sec    |   0.000000 sec    |   0.001273 sec    |   0.001989 sec    |   inf sec    |   inf sec
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+average   |    0.000086 sec    |   0.048408 sec    |   0.000000 sec    |   0.001781 sec    |   0.002783 sec    |   904.000000 sec    |   1412.500000 sec
+
+          |  bandwidth(seq)    |  bandwidth(column) |  bandwidth(row)
+--------------------------------------------------------------------
+1' attempt|    8.865801 GB/s   |   0.019565 GB/s   |   inf GB/s
+2' attempt|    11.314917 GB/s   |   0.017162 GB/s   |   inf GB/s
+3' attempt|    11.976608 GB/s   |   0.031564 GB/s   |   8200.000000 GB/s
+4' attempt|    12.525994 GB/s   |   0.021737 GB/s   |   8200.000000 GB/s
+5' attempt|    13.003175 GB/s   |   0.016583 GB/s   |   inf GB/s
+---------------------------------------------------------------------
+average   |    11.327434 GB/s   |   0.020213 GB/s   |   20500.000000 GB/s
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+process= 1      MATRIX SIZE = 512
+          |  sequential time   |   mpi time(column) |   mpi time(row)   |  speedup(column)   | efficiency(column)  |   speedup(row)    |  efficiency(row)
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+1' attempt|    0.000911 sec    |   0.002130 sec    |   0.003258 sec    |   0.427964 sec    |   42.796373 sec    |   0.279807 sec    |   27.980678 sec
+2' attempt|    0.000899 sec    |   0.002100 sec    |   0.003094 sec    |   0.428020 sec    |   42.801998 sec    |   0.290492 sec    |   29.049160 sec
+3' attempt|    0.000880 sec    |   0.002101 sec    |   0.003205 sec    |   0.418974 sec    |   41.897413 sec    |   0.274641 sec    |   27.464108 sec
+4' attempt|    0.000894 sec    |   0.002091 sec    |   0.003227 sec    |   0.427643 sec    |   42.764283 sec    |   0.277059 sec    |   27.705948 sec
+5' attempt|    0.000896 sec    |   0.002098 sec    |   0.003246 sec    |   0.426883 sec    |   42.688331 sec    |   0.275946 sec    |   27.594565 sec
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+average   |    0.000896 sec    |   0.002104 sec    |   0.003206 sec    |   0.425900 sec    |   42.590032 sec    |   0.279501 sec    |   27.950144 sec
+
+          |  bandwidth(seq)    |  bandwidth(column) |  bandwidth(row)
+--------------------------------------------------------------------
+1' attempt|    4.285640 GB/s   |   1.834112 GB/s   |   2.398311 GB/s
+2' attempt|    4.345889 GB/s   |   1.860141 GB/s   |   2.524898 GB/s
+3' attempt|    4.437703 GB/s   |   1.859297 GB/s   |   2.437560 GB/s
+4' attempt|    4.369067 GB/s   |   1.868414 GB/s   |   2.420992 GB/s
+5' attempt|    4.360926 GB/s   |   1.861621 GB/s   |   2.406766 GB/s
+---------------------------------------------------------------------
+average   |    4.359302 GB/s   |   1.856642 GB/s   |   2.436872 GB/s
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+process= 2      MATRIX SIZE = 512
+          |  sequential time   |   mpi time(column) |   mpi time(row)   |  speedup(column)   | efficiency(column)  |   speedup(row)    |  efficiency(row)
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+1' attempt|    0.000898 sec    |   0.001648 sec    |   0.001801 sec    |   0.544837 sec    |   27.241828 sec    |   0.498676 sec    |   24.933810 sec
+2' attempt|    0.000886 sec    |   0.001575 sec    |   0.001753 sec    |   0.562822 sec    |   28.141084 sec    |   0.505575 sec    |   25.278760 sec
+3' attempt|    0.000887 sec    |   0.001575 sec    |   0.001753 sec    |   0.562954 sec    |   28.147700 sec    |   0.505847 sec    |   25.292358 sec
+4' attempt|    0.000906 sec    |   0.001609 sec    |   0.001792 sec    |   0.562667 sec    |   28.133333 sec    |   0.505322 sec    |   25.266099 sec
+5' attempt|    0.000942 sec    |   0.001632 sec    |   0.001859 sec    |   0.577041 sec    |   28.852052 sec    |   0.506733 sec    |   25.336668 sec
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+average   |    0.000904 sec    |   0.001608 sec    |   0.001792 sec    |   0.562016 sec    |   28.100815 sec    |   0.504431 sec    |   25.221557 sec
+
+          |  bandwidth(seq)    |  bandwidth(column) |  bandwidth(row)
+--------------------------------------------------------------------
+1' attempt|    4.349350 GB/s   |   2.369721 GB/s   |   4.337867 GB/s
+2' attempt|    4.406670 GB/s   |   2.480207 GB/s   |   4.455840 GB/s
+3' attempt|    4.404301 GB/s   |   2.479457 GB/s   |   4.455840 GB/s
+4' attempt|    4.313849 GB/s   |   2.427296 GB/s   |   4.359799 GB/s
+5' attempt|    4.146798 GB/s   |   2.392909 GB/s   |   4.202674 GB/s
+---------------------------------------------------------------------
+average   |    4.322043 GB/s   |   2.429096 GB/s   |   4.360379 GB/s
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+process= 4      MATRIX SIZE = 512
+          |  sequential time   |   mpi time(column) |   mpi time(row)   |  speedup(column)   | efficiency(column)  |   speedup(row)    |  efficiency(row)
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+1' attempt|    0.001135 sec    |   0.001470 sec    |   0.002800 sec    |   0.771938 sec    |   19.298459 sec    |   0.405263 sec    |   10.131568 sec
+2' attempt|    0.001085 sec    |   0.001408 sec    |   0.003078 sec    |   0.770664 sec    |   19.266599 sec    |   0.352413 sec    |   8.810317 sec
+3' attempt|    0.001088 sec    |   0.001390 sec    |   0.003019 sec    |   0.782639 sec    |   19.565963 sec    |   0.360234 sec    |   9.005843 sec
+4' attempt|    0.001075 sec    |   0.001409 sec    |   0.003002 sec    |   0.762864 sec    |   19.071598 sec    |   0.357897 sec    |   8.947431 sec
+5' attempt|    0.001051 sec    |   0.001401 sec    |   0.003176 sec    |   0.750511 sec    |   18.762764 sec    |   0.331031 sec    |   8.275784 sec
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+average   |    0.001087 sec    |   0.001415 sec    |   0.003015 sec    |   0.767738 sec    |   19.193451 sec    |   0.360381 sec    |   9.009536 sec
+
+          |  bandwidth(seq)    |  bandwidth(column) |  bandwidth(row)
+--------------------------------------------------------------------
+1' attempt|    3.442740 GB/s   |   2.657664 GB/s   |   2.790471 GB/s
+2' attempt|    3.600879 GB/s   |   2.775152 GB/s   |   2.538030 GB/s
+3' attempt|    3.591407 GB/s   |   2.810859 GB/s   |   2.587532 GB/s
+4' attempt|    3.635234 GB/s   |   2.773274 GB/s   |   2.602120 GB/s
+5' attempt|    3.715193 GB/s   |   2.788376 GB/s   |   2.459728 GB/s
+---------------------------------------------------------------------
+average   |    3.594874 GB/s   |   2.760006 GB/s   |   2.591092 GB/s
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+process= 8      MATRIX SIZE = 512
+          |  sequential time   |   mpi time(column) |   mpi time(row)   |  speedup(column)   | efficiency(column)  |   speedup(row)    |  efficiency(row)
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+1' attempt|    0.001230 sec    |   0.048980 sec    |   0.038432 sec    |   0.025102 sec    |   0.313779 sec    |   0.031992 sec    |   0.399901 sec
+2' attempt|    0.001206 sec    |   0.002462 sec    |   0.005320 sec    |   0.489978 sec    |   6.124722 sec    |   0.226753 sec    |   2.834416 sec
+3' attempt|    0.001172 sec    |   0.001529 sec    |   0.040330 sec    |   0.766843 sec    |   9.585543 sec    |   0.029068 sec    |   0.363346 sec
+4' attempt|    0.001193 sec    |   0.001573 sec    |   0.005441 sec    |   0.758145 sec    |   9.476815 sec    |   0.219209 sec    |   2.740109 sec
+5' attempt|    0.001184 sec    |   0.012707 sec    |   0.006890 sec    |   0.093176 sec    |   1.164700 sec    |   0.171840 sec    |   2.147998 sec
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+average   |    0.001197 sec    |   0.013450 sec    |   0.019283 sec    |   0.088994 sec    |   1.112430 sec    |   0.062076 sec    |   0.775953 sec
+
+          |  bandwidth(seq)    |  bandwidth(column) |  bandwidth(row)
+--------------------------------------------------------------------
+1' attempt|    3.177041 GB/s   |   0.079756 GB/s   |   0.203287 GB/s
+2' attempt|    3.237945 GB/s   |   1.586618 GB/s   |   1.468474 GB/s
+3' attempt|    3.332113 GB/s   |   2.555365 GB/s   |   0.193719 GB/s
+4' attempt|    3.274835 GB/s   |   2.482952 GB/s   |   1.435788 GB/s
+5' attempt|    3.299235 GB/s   |   0.307428 GB/s   |   1.133915 GB/s
+---------------------------------------------------------------------
+average   |    3.263355 GB/s   |   0.290438 GB/s   |   0.405166 GB/s
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+process= 16      MATRIX SIZE = 512
+          |  sequential time   |   mpi time(column) |   mpi time(row)   |  speedup(column)   | efficiency(column)  |   speedup(row)    |  efficiency(row)
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+1' attempt|    0.001386 sec    |   0.045098 sec    |   0.156167 sec    |   0.030737 sec    |   0.192105 sec    |   0.008876 sec    |   0.055476 sec
+2' attempt|    0.001436 sec    |   0.029745 sec    |   0.194151 sec    |   0.048277 sec    |   0.301732 sec    |   0.007396 sec    |   0.046227 sec
+3' attempt|    0.001453 sec    |   0.029773 sec    |   0.179749 sec    |   0.048808 sec    |   0.305050 sec    |   0.008084 sec    |   0.050528 sec
+4' attempt|    0.001331 sec    |   0.075255 sec    |   0.356580 sec    |   0.017691 sec    |   0.110569 sec    |   0.003734 sec    |   0.023335 sec
+5' attempt|    0.001365 sec    |   0.073469 sec    |   0.309907 sec    |   0.018575 sec    |   0.116095 sec    |   0.004404 sec    |   0.027522 sec
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+average   |    0.001394 sec    |   0.050668 sec    |   0.239311 sec    |   0.027518 sec    |   0.171987 sec    |   0.005826 sec    |   0.036414 sec
+
+          |  bandwidth(seq)    |  bandwidth(column) |  bandwidth(row)
+--------------------------------------------------------------------
+1' attempt|    2.818025 GB/s   |   0.086628 GB/s   |   0.050030 GB/s
+2' attempt|    2.720239 GB/s   |   0.131341 GB/s   |   0.040242 GB/s
+3' attempt|    2.688105 GB/s   |   0.131217 GB/s   |   0.043466 GB/s
+4' attempt|    2.934097 GB/s   |   0.051913 GB/s   |   0.021911 GB/s
+5' attempt|    2.862334 GB/s   |   0.053175 GB/s   |   0.025211 GB/s
+---------------------------------------------------------------------
+average   |    2.801642 GB/s   |   0.077105 GB/s   |   0.032648 GB/s
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+process= 32      MATRIX SIZE = 512
+          |  sequential time   |   mpi time(column) |   mpi time(row)   |  speedup(column)   | efficiency(column)  |   speedup(row)    |  efficiency(row)
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+1' attempt|    0.001245 sec    |   0.105128 sec    |   0.000000 sec    |   0.011847 sec    |   0.037023 sec    |   inf sec    |   inf sec
+2' attempt|    0.001426 sec    |   0.099015 sec    |   0.000000 sec    |   0.014399 sec    |   0.044998 sec    |   inf sec    |   inf sec
+3' attempt|    0.001121 sec    |   0.071020 sec    |   0.000000 sec    |   0.015781 sec    |   0.049317 sec    |   4701.000000 sec    |   14690.625000 sec
+4' attempt|    0.001184 sec    |   0.104016 sec    |   0.000000 sec    |   0.011380 sec    |   0.035564 sec    |   inf sec    |   inf sec
+5' attempt|    0.001143 sec    |   0.100036 sec    |   0.000000 sec    |   0.011428 sec    |   0.035713 sec    |   inf sec    |   inf sec
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+average   |    0.001224 sec    |   0.095843 sec    |   0.000000 sec    |   0.012769 sec    |   0.039903 sec    |   25665.000000 sec    |   80203.125000 sec
+
+          |  bandwidth(seq)    |  bandwidth(column) |  bandwidth(row)
+--------------------------------------------------------------------
+1' attempt|    3.136294 GB/s   |   0.037166 GB/s   |   inf GB/s
+2' attempt|    2.739799 GB/s   |   0.039461 GB/s   |   inf GB/s
+3' attempt|    3.485216 GB/s   |   0.055015 GB/s   |   32772.000000 GB/s
+4' attempt|    3.299899 GB/s   |   0.037564 GB/s   |   inf GB/s
+5' attempt|    3.416893 GB/s   |   0.039058 GB/s   |   inf GB/s
+---------------------------------------------------------------------
+average   |    3.191896 GB/s   |   0.040767 GB/s   |   163860.000000 GB/s
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+process= 64      MATRIX SIZE = 512
+          |  sequential time   |   mpi time(column) |   mpi time(row)   |  speedup(column)   | efficiency(column)  |   speedup(row)    |  efficiency(row)
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+1' attempt|    0.001802 sec    |   0.062073 sec    |   0.000000 sec    |   0.029037 sec    |   0.045371 sec    |   3780.000000 sec    |   5906.250000 sec
+2' attempt|    0.001423 sec    |   0.084021 sec    |   0.000001 sec    |   0.016935 sec    |   0.026461 sec    |   1989.333333 sec    |   3108.333333 sec
+3' attempt|    0.001563 sec    |   0.062051 sec    |   0.000001 sec    |   0.025190 sec    |   0.039360 sec    |   2185.333333 sec    |   3414.583333 sec
+4' attempt|    0.001403 sec    |   0.084020 sec    |   0.000000 sec    |   0.016697 sec    |   0.026088 sec    |   5884.000000 sec    |   9193.750000 sec
+5' attempt|    0.001468 sec    |   0.084027 sec    |   0.000000 sec    |   0.017470 sec    |   0.027297 sec    |   3078.500000 sec    |   4810.156250 sec
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+average   |    0.001532 sec    |   0.075238 sec    |   0.000001 sec    |   0.020360 sec    |   0.031812 sec    |   2920.454545 sec    |   4563.210227 sec
+
+          |  bandwidth(seq)    |  bandwidth(column) |  bandwidth(row)
+--------------------------------------------------------------------
+1' attempt|    2.167196 GB/s   |   0.062961 GB/s   |   16388.000000 GB/s
+2' attempt|    2.745308 GB/s   |   0.046514 GB/s   |   10925.333333 GB/s
+3' attempt|    2.499085 GB/s   |   0.062983 GB/s   |   10925.333333 GB/s
+4' attempt|    2.784500 GB/s   |   0.046514 GB/s   |   32776.000000 GB/s
+5' attempt|    2.661036 GB/s   |   0.046511 GB/s   |   16388.000000 GB/s
+---------------------------------------------------------------------
+average   |    2.550039 GB/s   |   0.051944 GB/s   |   14898.181818 GB/s
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+process= 1      MATRIX SIZE = 1024
+          |  sequential time   |   mpi time(column) |   mpi time(row)   |  speedup(column)   | efficiency(column)  |   speedup(row)    |  efficiency(row)
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+1' attempt|    0.013693 sec    |   0.016115 sec    |   0.021097 sec    |   0.849741 sec    |   84.974109 sec    |   0.649052 sec    |   64.905242 sec
+2' attempt|    0.009547 sec    |   0.017978 sec    |   0.023365 sec    |   0.531020 sec    |   53.101957 sec    |   0.408573 sec    |   40.857329 sec
+3' attempt|    0.009087 sec    |   0.016628 sec    |   0.020087 sec    |   0.546456 sec    |   54.645561 sec    |   0.452373 sec    |   45.237332 sec
+4' attempt|    0.012787 sec    |   0.030326 sec    |   0.023756 sec    |   0.421660 sec    |   42.165966 sec    |   0.538273 sec    |   53.827317 sec
+5' attempt|    0.010824 sec    |   0.028419 sec    |   0.018504 sec    |   0.380881 sec    |   38.088087 sec    |   0.584989 sec    |   58.498905 sec
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+average   |    0.011188 sec    |   0.021893 sec    |   0.021362 sec    |   0.511009 sec    |   51.100879 sec    |   0.523720 sec    |   52.372045 sec
+
+          |  bandwidth(seq)    |  bandwidth(column) |  bandwidth(row)
+--------------------------------------------------------------------
+1' attempt|    1.141066 GB/s   |   0.969613 GB/s   |   1.481225 GB/s
+2' attempt|    1.636722 GB/s   |   0.869133 GB/s   |   1.337443 GB/s
+3' attempt|    1.719563 GB/s   |   0.939667 GB/s   |   1.555771 GB/s
+4' attempt|    1.221934 GB/s   |   0.515241 GB/s   |   1.315470 GB/s
+5' attempt|    1.443492 GB/s   |   0.549800 GB/s   |   1.688856 GB/s
+---------------------------------------------------------------------
+average   |    1.396635 GB/s   |   0.713694 GB/s   |   1.462894 GB/s
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+process= 2      MATRIX SIZE = 1024
+          |  sequential time   |   mpi time(column) |   mpi time(row)   |  speedup(column)   | efficiency(column)  |   speedup(row)    |  efficiency(row)
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+1' attempt|    0.011492 sec    |   0.011933 sec    |   0.011919 sec    |   0.963038 sec    |   48.151922 sec    |   0.964233 sec    |   48.211642 sec
+2' attempt|    0.010819 sec    |   0.011892 sec    |   0.014029 sec    |   0.909802 sec    |   45.490086 sec    |   0.771244 sec    |   38.562203 sec
+3' attempt|    0.008547 sec    |   0.009974 sec    |   0.011916 sec    |   0.856846 sec    |   42.842289 sec    |   0.717227 sec    |   35.861345 sec
+4' attempt|    0.006670 sec    |   0.012484 sec    |   0.018285 sec    |   0.534329 sec    |   26.716449 sec    |   0.364800 sec    |   18.240019 sec
+5' attempt|    0.007211 sec    |   0.010710 sec    |   0.015506 sec    |   0.673315 sec    |   33.665769 sec    |   0.465051 sec    |   23.252560 sec
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+average   |    0.008948 sec    |   0.011399 sec    |   0.014331 sec    |   0.784998 sec    |   39.249903 sec    |   0.624382 sec    |   31.219097 sec
+
+          |  bandwidth(seq)    |  bandwidth(column) |  bandwidth(row)
+--------------------------------------------------------------------
+1' attempt|    1.359612 GB/s   |   1.309363 GB/s   |   2.621969 GB/s
+2' attempt|    1.444160 GB/s   |   1.313905 GB/s   |   2.227605 GB/s
+3' attempt|    1.828214 GB/s   |   1.566504 GB/s   |   2.622494 GB/s
+4' attempt|    2.342412 GB/s   |   1.251623 GB/s   |   1.709029 GB/s
+5' attempt|    2.166766 GB/s   |   1.458922 GB/s   |   2.015318 GB/s
+---------------------------------------------------------------------
+average   |    1.746202 GB/s   |   1.370770 GB/s   |   2.180598 GB/s
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+process= 4      MATRIX SIZE = 1024
+          |  sequential time   |   mpi time(column) |   mpi time(row)   |  speedup(column)   | efficiency(column)  |   speedup(row)    |  efficiency(row)
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+1' attempt|    0.009774 sec    |   0.008439 sec    |   0.009431 sec    |   1.158243 sec    |   28.956067 sec    |   1.036352 sec    |   25.908792 sec
+2' attempt|    0.007685 sec    |   0.010391 sec    |   0.010064 sec    |   0.739640 sec    |   18.491005 sec    |   0.763664 sec    |   19.091588 sec
+3' attempt|    0.008098 sec    |   0.010437 sec    |   0.010441 sec    |   0.775917 sec    |   19.397930 sec    |   0.775563 sec    |   19.389072 sec
+4' attempt|    0.009044 sec    |   0.010710 sec    |   0.010762 sec    |   0.844400 sec    |   21.110010 sec    |   0.840323 sec    |   21.008064 sec
+5' attempt|    0.007427 sec    |   0.007373 sec    |   0.009451 sec    |   1.007243 sec    |   25.181077 sec    |   0.785822 sec    |   19.645560 sec
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+average   |    0.008406 sec    |   0.009470 sec    |   0.010030 sec    |   0.887608 sec    |   22.190206 sec    |   0.838051 sec    |   20.951275 sec
+
+          |  bandwidth(seq)    |  bandwidth(column) |  bandwidth(row)
+--------------------------------------------------------------------
+1' attempt|    1.598595 GB/s   |   1.851575 GB/s   |   3.313426 GB/s
+2' attempt|    2.033070 GB/s   |   1.503752 GB/s   |   3.105174 GB/s
+3' attempt|    1.929516 GB/s   |   1.497156 GB/s   |   2.992933 GB/s
+4' attempt|    1.727678 GB/s   |   1.458863 GB/s   |   2.903624 GB/s
+5' attempt|    2.103884 GB/s   |   2.119139 GB/s   |   3.306572 GB/s
+---------------------------------------------------------------------
+average   |    1.858871 GB/s   |   1.649962 GB/s   |   3.115670 GB/s
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+process= 8      MATRIX SIZE = 1024
+          |  sequential time   |   mpi time(column) |   mpi time(row)   |  speedup(column)   | efficiency(column)  |   speedup(row)    |  efficiency(row)
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+1' attempt|    0.006085 sec    |   0.017053 sec    |   0.097411 sec    |   0.356859 sec    |   4.460740 sec    |   0.062471 sec    |   0.780891 sec
+2' attempt|    0.005508 sec    |   0.015465 sec    |   0.079967 sec    |   0.356161 sec    |   4.452007 sec    |   0.068877 sec    |   0.860966 sec
+3' attempt|    0.005771 sec    |   0.010392 sec    |   0.136286 sec    |   0.555303 sec    |   6.941290 sec    |   0.042342 sec    |   0.529280 sec
+4' attempt|    0.006572 sec    |   0.035149 sec    |   0.194091 sec    |   0.186975 sec    |   2.337190 sec    |   0.033860 sec    |   0.423255 sec
+5' attempt|    0.007165 sec    |   0.055429 sec    |   0.036265 sec    |   0.129272 sec    |   1.615904 sec    |   0.197586 sec    |   2.469824 sec
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+average   |    0.006220 sec    |   0.026697 sec    |   0.108804 sec    |   0.232992 sec    |   2.912396 sec    |   0.057170 sec    |   0.714620 sec
+
+          |  bandwidth(seq)    |  bandwidth(column) |  bandwidth(row)
+--------------------------------------------------------------------
+1' attempt|    2.567623 GB/s   |   0.916294 GB/s   |   0.320808 GB/s
+2' attempt|    2.836811 GB/s   |   1.010376 GB/s   |   0.390787 GB/s
+3' attempt|    2.707652 GB/s   |   1.503591 GB/s   |   0.229299 GB/s
+4' attempt|    2.377508 GB/s   |   0.444542 GB/s   |   0.161008 GB/s
+5' attempt|    2.180608 GB/s   |   0.281897 GB/s   |   0.861721 GB/s
+---------------------------------------------------------------------
+average   |    2.511940 GB/s   |   0.585270 GB/s   |   0.287215 GB/s
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+process= 16      MATRIX SIZE = 1024
+          |  sequential time   |   mpi time(column) |   mpi time(row)   |  speedup(column)   | efficiency(column)  |   speedup(row)    |  efficiency(row)
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+1' attempt|    0.005806 sec    |   0.041690 sec    |   1.261613 sec    |   0.139272 sec    |   0.870451 sec    |   0.004602 sec    |   0.028764 sec
+2' attempt|    0.006336 sec    |   0.120006 sec    |   1.192700 sec    |   0.052799 sec    |   0.329994 sec    |   0.005312 sec    |   0.033203 sec
+3' attempt|    0.009582 sec    |   0.034142 sec    |   1.401295 sec    |   0.280663 sec    |   1.754146 sec    |   0.006838 sec    |   0.042739 sec
+4' attempt|    0.006968 sec    |   0.044541 sec    |   0.901767 sec    |   0.156447 sec    |   0.977795 sec    |   0.007727 sec    |   0.048296 sec
+5' attempt|    0.006744 sec    |   0.037917 sec    |   1.035231 sec    |   0.177867 sec    |   1.111666 sec    |   0.006515 sec    |   0.040716 sec
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+average   |    0.007087 sec    |   0.055659 sec    |   1.158521 sec    |   0.127336 sec    |   0.795853 sec    |   0.006118 sec    |   0.038235 sec
+
+          |  bandwidth(seq)    |  bandwidth(column) |  bandwidth(row)
+--------------------------------------------------------------------
+1' attempt|    2.691085 GB/s   |   0.374805 GB/s   |   0.024770 GB/s
+2' attempt|    2.465984 GB/s   |   0.130205 GB/s   |   0.026201 GB/s
+3' attempt|    1.630614 GB/s   |   0.457668 GB/s   |   0.022301 GB/s
+4' attempt|    2.242310 GB/s   |   0.350814 GB/s   |   0.034655 GB/s
+5' attempt|    2.316824 GB/s   |   0.412098 GB/s   |   0.030187 GB/s
+---------------------------------------------------------------------
+average   |    2.204610 GB/s   |   0.280736 GB/s   |   0.026974 GB/s
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+process= 32      MATRIX SIZE = 1024
+          |  sequential time   |   mpi time(column) |   mpi time(row)   |  speedup(column)   | efficiency(column)  |   speedup(row)    |  efficiency(row)
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+1' attempt|    0.017868 sec    |   0.078124 sec    |   0.000000 sec    |   0.228713 sec    |   0.714728 sec    |   inf sec    |   inf sec
+2' attempt|    0.016883 sec    |   0.037057 sec    |   0.000000 sec    |   0.455603 sec    |   1.423759 sec    |   inf sec    |   inf sec
+3' attempt|    0.017685 sec    |   0.032059 sec    |   0.000000 sec    |   0.551657 sec    |   1.723928 sec    |   inf sec    |   inf sec
+4' attempt|    0.017596 sec    |   0.049366 sec    |   0.000000 sec    |   0.356440 sec    |   1.113874 sec    |   73803.000000 sec    |   230634.375000 sec
+5' attempt|    0.004546 sec    |   0.072253 sec    |   0.000000 sec    |   0.062917 sec    |   0.196616 sec    |   inf sec    |   inf sec
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+average   |    0.014916 sec    |   0.053772 sec    |   0.000000 sec    |   0.277390 sec    |   0.866843 sec    |   312805.000000 sec    |   977515.625000 sec
+
+          |  bandwidth(seq)    |  bandwidth(column) |  bandwidth(row)
+--------------------------------------------------------------------
+1' attempt|    0.874466 GB/s   |   0.200014 GB/s   |   inf GB/s
+2' attempt|    0.925480 GB/s   |   0.421677 GB/s   |   inf GB/s
+3' attempt|    0.883496 GB/s   |   0.487417 GB/s   |   inf GB/s
+4' attempt|    0.887986 GB/s   |   0.316533 GB/s   |   131076.000000 GB/s
+5' attempt|    3.437143 GB/s   |   0.216269 GB/s   |   inf GB/s
+---------------------------------------------------------------------
+average   |    1.047554 GB/s   |   0.290598 GB/s   |   655380.000000 GB/s
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+process= 64      MATRIX SIZE = 1024
+          |  sequential time   |   mpi time(column) |   mpi time(row)   |  speedup(column)   | efficiency(column)  |   speedup(row)    |  efficiency(row)
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+1' attempt|    0.027757 sec    |   0.140039 sec    |   0.000000 sec    |   0.198210 sec    |   0.309704 sec    |   inf sec    |   inf sec
+2' attempt|    0.026877 sec    |   0.138026 sec    |   0.000000 sec    |   0.194726 sec    |   0.304259 sec    |   inf sec    |   inf sec
+3' attempt|    0.023587 sec    |   0.128108 sec    |   0.000000 sec    |   0.184114 sec    |   0.287678 sec    |   inf sec    |   inf sec
+4' attempt|    0.023530 sec    |   0.137032 sec    |   0.000000 sec    |   0.171716 sec    |   0.268306 sec    |   inf sec    |   inf sec
+5' attempt|    0.006057 sec    |   0.135122 sec    |   0.000000 sec    |   0.044826 sec    |   0.070041 sec    |   inf sec    |   inf sec
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+average   |    0.021562 sec    |   0.135665 sec    |   0.000000 sec    |   0.158933 sec    |   0.248333 sec    |   inf sec    |   inf sec
+
+          |  bandwidth(seq)    |  bandwidth(column) |  bandwidth(row)
+--------------------------------------------------------------------
+1' attempt|    0.562918 GB/s   |   0.111590 GB/s   |   inf GB/s
+2' attempt|    0.581349 GB/s   |   0.113217 GB/s   |   inf GB/s
+3' attempt|    0.662455 GB/s   |   0.121982 GB/s   |   inf GB/s
+4' attempt|    0.664032 GB/s   |   0.114039 GB/s   |   inf GB/s
+5' attempt|    2.579650 GB/s   |   0.115650 GB/s   |   inf GB/s
+---------------------------------------------------------------------
+average   |    0.724666 GB/s   |   0.115187 GB/s   |   inf GB/s
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+process= 1      MATRIX SIZE = 2048
+          |  sequential time   |   mpi time(column) |   mpi time(row)   |  speedup(column)   | efficiency(column)  |   speedup(row)    |  efficiency(row)
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+1' attempt|    0.061120 sec    |   0.093239 sec    |   0.092853 sec    |   0.655519 sec    |   65.551868 sec    |   0.658242 sec    |   65.824205 sec
+2' attempt|    0.064539 sec    |   0.091391 sec    |   0.113839 sec    |   0.706191 sec    |   70.619065 sec    |   0.566934 sec    |   56.693439 sec
+3' attempt|    0.060291 sec    |   0.094083 sec    |   0.140541 sec    |   0.640824 sec    |   64.082369 sec    |   0.428990 sec    |   42.898996 sec
+4' attempt|    0.065105 sec    |   0.099368 sec    |   0.109377 sec    |   0.655192 sec    |   65.519219 sec    |   0.595235 sec    |   59.523457 sec
+5' attempt|    0.070709 sec    |   0.100710 sec    |   0.191069 sec    |   0.702112 sec    |   70.211194 sec    |   0.370073 sec    |   37.007270 sec
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+average   |    0.064353 sec    |   0.095758 sec    |   0.129536 sec    |   0.672036 sec    |   67.203600 sec    |   0.496796 sec    |   49.679559 sec
+
+          |  bandwidth(seq)    |  bandwidth(column) |  bandwidth(row)
+--------------------------------------------------------------------
+1' attempt|    1.022582 GB/s   |   0.670322 GB/s   |   1.346213 GB/s
+2' attempt|    0.968404 GB/s   |   0.683878 GB/s   |   1.098043 GB/s
+3' attempt|    1.036642 GB/s   |   0.664305 GB/s   |   0.889418 GB/s
+4' attempt|    0.959985 GB/s   |   0.628975 GB/s   |   1.142833 GB/s
+5' attempt|    0.883899 GB/s   |   0.620596 GB/s   |   0.654214 GB/s
+---------------------------------------------------------------------
+average   |    0.971207 GB/s   |   0.652687 GB/s   |   0.964983 GB/s
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+process= 2      MATRIX SIZE = 2048
+          |  sequential time   |   mpi time(column) |   mpi time(row)   |  speedup(column)   | efficiency(column)  |   speedup(row)    |  efficiency(row)
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+1' attempt|    0.037213 sec    |   0.051389 sec    |   0.048422 sec    |   0.724137 sec    |   36.206865 sec    |   0.768517 sec    |   38.425860 sec
+2' attempt|    0.041206 sec    |   0.052379 sec    |   0.053010 sec    |   0.786701 sec    |   39.335069 sec    |   0.777336 sec    |   38.866776 sec
+3' attempt|    0.040601 sec    |   0.050926 sec    |   0.049841 sec    |   0.797259 sec    |   39.862967 sec    |   0.814616 sec    |   40.730793 sec
+4' attempt|    0.039549 sec    |   0.051008 sec    |   0.049472 sec    |   0.775359 sec    |   38.767931 sec    |   0.799427 sec    |   39.971325 sec
+5' attempt|    0.040039 sec    |   0.051509 sec    |   0.049629 sec    |   0.777331 sec    |   38.866568 sec    |   0.806773 sec    |   40.338635 sec
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+average   |    0.039722 sec    |   0.051442 sec    |   0.050075 sec    |   0.772166 sec    |   38.608298 sec    |   0.793251 sec    |   39.662569 sec
+
+          |  bandwidth(seq)    |  bandwidth(column) |  bandwidth(row)
+--------------------------------------------------------------------
+1' attempt|    1.679527 GB/s   |   1.216210 GB/s   |   2.581493 GB/s
+2' attempt|    1.516756 GB/s   |   1.193235 GB/s   |   2.358058 GB/s
+3' attempt|    1.539370 GB/s   |   1.227279 GB/s   |   2.507992 GB/s
+4' attempt|    1.580314 GB/s   |   1.225311 GB/s   |   2.526690 GB/s
+5' attempt|    1.560966 GB/s   |   1.213389 GB/s   |   2.518691 GB/s
+---------------------------------------------------------------------
+average   |    1.573446 GB/s   |   1.214963 GB/s   |   2.496278 GB/s
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+process= 4      MATRIX SIZE = 2048
+          |  sequential time   |   mpi time(column) |   mpi time(row)   |  speedup(column)   | efficiency(column)  |   speedup(row)    |  efficiency(row)
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+1' attempt|    0.038975 sec    |   0.043004 sec    |   0.056995 sec    |   0.906321 sec    |   22.658035 sec    |   0.683836 sec    |   17.095890 sec
+2' attempt|    0.042289 sec    |   0.045467 sec    |   0.043987 sec    |   0.930116 sec    |   23.252893 sec    |   0.961403 sec    |   24.035069 sec
+3' attempt|    0.042433 sec    |   0.046852 sec    |   0.054554 sec    |   0.905684 sec    |   22.642105 sec    |   0.777816 sec    |   19.445403 sec
+4' attempt|    0.044000 sec    |   0.046940 sec    |   0.058675 sec    |   0.937369 sec    |   23.434214 sec    |   0.749896 sec    |   18.747410 sec
+5' attempt|    0.040989 sec    |   0.047386 sec    |   0.060499 sec    |   0.865001 sec    |   21.625031 sec    |   0.677505 sec    |   16.937632 sec
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+average   |    0.041737 sec    |   0.045930 sec    |   0.054942 sec    |   0.908722 sec    |   22.718059 sec    |   0.759659 sec    |   18.991474 sec
+
+          |  bandwidth(seq)    |  bandwidth(column) |  bandwidth(row)
+--------------------------------------------------------------------
+1' attempt|    1.603572 GB/s   |   1.453355 GB/s   |   2.193162 GB/s
+2' attempt|    1.477917 GB/s   |   1.374636 GB/s   |   2.841749 GB/s
+3' attempt|    1.472918 GB/s   |   1.334001 GB/s   |   2.291320 GB/s
+4' attempt|    1.420442 GB/s   |   1.331480 GB/s   |   2.130371 GB/s
+5' attempt|    1.524811 GB/s   |   1.318966 GB/s   |   2.066137 GB/s
+---------------------------------------------------------------------
+average   |    1.497461 GB/s   |   1.360779 GB/s   |   2.275121 GB/s
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+process= 8      MATRIX SIZE = 2048
+          |  sequential time   |   mpi time(column) |   mpi time(row)   |  speedup(column)   | efficiency(column)  |   speedup(row)    |  efficiency(row)
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+1' attempt|    0.046877 sec    |   0.094121 sec    |   0.415249 sec    |   0.498057 sec    |   6.225714 sec    |   0.112890 sec    |   1.411124 sec
+2' attempt|    0.049058 sec    |   0.086226 sec    |   0.702544 sec    |   0.568942 sec    |   7.111775 sec    |   0.069829 sec    |   0.872858 sec
+3' attempt|    0.055883 sec    |   0.059978 sec    |   0.402003 sec    |   0.931731 sec    |   11.646642 sec    |   0.139012 sec    |   1.737647 sec
+4' attempt|    0.055038 sec    |   0.087698 sec    |   0.752084 sec    |   0.627584 sec    |   7.844805 sec    |   0.073180 sec    |   0.914754 sec
+5' attempt|    0.047230 sec    |   0.059169 sec    |   0.525828 sec    |   0.798228 sec    |   9.977848 sec    |   0.089820 sec    |   1.122753 sec
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+average   |    0.050817 sec    |   0.077438 sec    |   0.559542 sec    |   0.656229 sec    |   8.202868 sec    |   0.090819 sec    |   1.135242 sec
+
+          |  bandwidth(seq)    |  bandwidth(column) |  bandwidth(row)
+--------------------------------------------------------------------
+1' attempt|    1.333266 GB/s   |   0.664045 GB/s   |   0.301025 GB/s
+2' attempt|    1.274009 GB/s   |   0.724840 GB/s   |   0.177925 GB/s
+3' attempt|    1.118405 GB/s   |   1.042057 GB/s   |   0.310943 GB/s
+4' attempt|    1.135584 GB/s   |   0.712678 GB/s   |   0.166205 GB/s
+5' attempt|    1.323311 GB/s   |   1.056308 GB/s   |   0.237721 GB/s
+---------------------------------------------------------------------
+average   |    1.229898 GB/s   |   0.807099 GB/s   |   0.223398 GB/s
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+process= 16      MATRIX SIZE = 2048
+          |  sequential time   |   mpi time(column) |   mpi time(row)   |  speedup(column)   | efficiency(column)  |   speedup(row)    |  efficiency(row)
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+1' attempt|    0.037397 sec    |   0.093896 sec    |   1.919007 sec    |   0.398278 sec    |   2.489240 sec    |   0.019488 sec    |   0.121798 sec
+2' attempt|    0.088605 sec    |   0.062538 sec    |   1.570245 sec    |   1.416823 sec    |   8.855146 sec    |   0.056428 sec    |   0.352672 sec
+3' attempt|    0.045090 sec    |   0.070082 sec    |   0.872571 sec    |   0.643385 sec    |   4.021154 sec    |   0.051675 sec    |   0.322968 sec
+4' attempt|    0.041163 sec    |   0.073215 sec    |   1.040262 sec    |   0.562224 sec    |   3.513898 sec    |   0.039570 sec    |   0.247313 sec
+5' attempt|    0.038707 sec    |   0.073482 sec    |   0.951900 sec    |   0.526753 sec    |   3.292208 sec    |   0.040663 sec    |   0.254141 sec
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+average   |    0.050192 sec    |   0.074643 sec    |   1.270797 sec    |   0.672435 sec    |   4.202722 sec    |   0.039497 sec    |   0.246855 sec
+
+          |  bandwidth(seq)    |  bandwidth(column) |  bandwidth(row)
+--------------------------------------------------------------------
+1' attempt|    1.671261 GB/s   |   0.665632 GB/s   |   0.065138 GB/s
+2' attempt|    0.705376 GB/s   |   0.999401 GB/s   |   0.079606 GB/s
+3' attempt|    1.386118 GB/s   |   0.891814 GB/s   |   0.143255 GB/s
+4' attempt|    1.518346 GB/s   |   0.853657 GB/s   |   0.120162 GB/s
+5' attempt|    1.614704 GB/s   |   0.850557 GB/s   |   0.131317 GB/s
+---------------------------------------------------------------------
+average   |    1.245208 GB/s   |   0.837329 GB/s   |   0.098364 GB/s
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+process= 32      MATRIX SIZE = 2048
+          |  sequential time   |   mpi time(column) |   mpi time(row)   |  speedup(column)   | efficiency(column)  |   speedup(row)    |  efficiency(row)
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+1' attempt|    0.039047 sec    |   0.059916 sec    |   0.000000 sec    |   0.651698 sec    |   2.036557 sec    |   inf sec    |   inf sec
+2' attempt|    0.036060 sec    |   0.069211 sec    |   0.000000 sec    |   0.521015 sec    |   1.628172 sec    |   inf sec    |   inf sec
+3' attempt|    0.034528 sec    |   0.065589 sec    |   0.000000 sec    |   0.526440 sec    |   1.645124 sec    |   inf sec    |   inf sec
+4' attempt|    0.037240 sec    |   0.066328 sec    |   0.000000 sec    |   0.561460 sec    |   1.754562 sec    |   inf sec    |   inf sec
+5' attempt|    0.033581 sec    |   0.067806 sec    |   0.000000 sec    |   0.495250 sec    |   1.547655 sec    |   inf sec    |   inf sec
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+average   |    0.036091 sec    |   0.065770 sec    |   0.000000 sec    |   0.548752 sec    |   1.714851 sec    |   inf sec    |   inf sec
+
+          |  bandwidth(seq)    |  bandwidth(column) |  bandwidth(row)
+--------------------------------------------------------------------
+1' attempt|    1.600615 GB/s   |   1.043134 GB/s   |   inf GB/s
+2' attempt|    1.733229 GB/s   |   0.903052 GB/s   |   inf GB/s
+3' attempt|    1.810099 GB/s   |   0.952922 GB/s   |   inf GB/s
+4' attempt|    1.678291 GB/s   |   0.942307 GB/s   |   inf GB/s
+5' attempt|    1.861170 GB/s   |   0.921758 GB/s   |   inf GB/s
+---------------------------------------------------------------------
+average   |    1.731713 GB/s   |   0.950296 GB/s   |   inf GB/s
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+process= 64      MATRIX SIZE = 2048
+          |  sequential time   |   mpi time(column) |   mpi time(row)   |  speedup(column)   | efficiency(column)  |   speedup(row)    |  efficiency(row)
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+1' attempt|    0.061657 sec    |   0.238829 sec    |   0.000000 sec    |   0.258162 sec    |   0.403378 sec    |   inf sec    |   inf sec
+2' attempt|    0.058042 sec    |   0.169965 sec    |   0.000000 sec    |   0.341493 sec    |   0.533583 sec    |   243445.000000 sec    |   380382.812500 sec
+3' attempt|    0.060333 sec    |   0.197157 sec    |   0.000000 sec    |   0.306016 sec    |   0.478150 sec    |   inf sec    |   inf sec
+4' attempt|    0.058769 sec    |   0.225175 sec    |   0.000000 sec    |   0.260995 sec    |   0.407804 sec    |   246497.000000 sec    |   385151.562500 sec
+5' attempt|    0.032138 sec    |   0.087314 sec    |   0.000000 sec    |   0.368072 sec    |   0.575112 sec    |   inf sec    |   inf sec
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+average   |    0.054188 sec    |   0.183688 sec    |   0.000000 sec    |   0.294999 sec    |   0.460936 sec    |   568200.500000 sec    |   887813.281250 sec
+
+          |  bandwidth(seq)    |  bandwidth(column) |  bandwidth(row)
+--------------------------------------------------------------------
+1' attempt|    1.013677 GB/s   |   0.261701 GB/s   |   inf GB/s
+2' attempt|    1.076810 GB/s   |   0.367734 GB/s   |   524296.000000 GB/s
+3' attempt|    1.035913 GB/s   |   0.317016 GB/s   |   inf GB/s
+4' attempt|    1.063477 GB/s   |   0.277570 GB/s   |   524296.000000 GB/s
+5' attempt|    1.944746 GB/s   |   0.715828 GB/s   |   inf GB/s
+---------------------------------------------------------------------
+average   |    1.153396 GB/s   |   0.340261 GB/s   |   1310740.000000 GB/s
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+process= 1      MATRIX SIZE = 4096
+          |  sequential time   |   mpi time(column) |   mpi time(row)   |  speedup(column)   | efficiency(column)  |   speedup(row)    |  efficiency(row)
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+1' attempt|    0.380639 sec    |   0.458999 sec    |   0.769063 sec    |   0.829281 sec    |   82.928065 sec    |   0.494939 sec    |   49.493890 sec
+2' attempt|    0.302342 sec    |   0.401480 sec    |   0.874158 sec    |   0.753068 sec    |   75.306827 sec    |   0.345867 sec    |   34.586668 sec
+3' attempt|    0.248072 sec    |   0.389063 sec    |   0.833230 sec    |   0.637615 sec    |   63.761475 sec    |   0.297724 sec    |   29.772369 sec
+4' attempt|    0.249752 sec    |   0.379318 sec    |   0.804341 sec    |   0.658425 sec    |   65.842538 sec    |   0.310505 sec    |   31.050544 sec
+5' attempt|    0.273080 sec    |   0.364089 sec    |   0.787838 sec    |   0.750037 sec    |   75.003683 sec    |   0.346620 sec    |   34.662004 sec
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+average   |    0.290777 sec    |   0.398590 sec    |   0.813726 sec    |   0.729515 sec    |   72.951490 sec    |   0.357341 sec    |   35.734052 sec
+
+          |  bandwidth(seq)    |  bandwidth(column) |  bandwidth(row)
+--------------------------------------------------------------------
+1' attempt|    0.656790 GB/s   |   0.544663 GB/s   |   0.650142 GB/s
+2' attempt|    0.826878 GB/s   |   0.622695 GB/s   |   0.571979 GB/s
+3' attempt|    1.007770 GB/s   |   0.642569 GB/s   |   0.600074 GB/s
+4' attempt|    1.000992 GB/s   |   0.659079 GB/s   |   0.621627 GB/s
+5' attempt|    0.915481 GB/s   |   0.686645 GB/s   |   0.634648 GB/s
+---------------------------------------------------------------------
+average   |    0.859764 GB/s   |   0.627211 GB/s   |   0.614457 GB/s
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+process= 2      MATRIX SIZE = 4096
+          |  sequential time   |   mpi time(column) |   mpi time(row)   |  speedup(column)   | efficiency(column)  |   speedup(row)    |  efficiency(row)
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+1' attempt|    0.224907 sec    |   0.283829 sec    |   0.406469 sec    |   0.792402 sec    |   39.620124 sec    |   0.553319 sec    |   27.665944 sec
+2' attempt|    0.213411 sec    |   0.323916 sec    |   0.499369 sec    |   0.658846 sec    |   32.942319 sec    |   0.427361 sec    |   21.368036 sec
+3' attempt|    0.200726 sec    |   0.367811 sec    |   0.425682 sec    |   0.545732 sec    |   27.286608 sec    |   0.471541 sec    |   23.577031 sec
+4' attempt|    0.211649 sec    |   0.271945 sec    |   0.375200 sec    |   0.778281 sec    |   38.914036 sec    |   0.564097 sec    |   28.204846 sec
+5' attempt|    0.195553 sec    |   0.276670 sec    |   0.389139 sec    |   0.706810 sec    |   35.340523 sec    |   0.502528 sec    |   25.126381 sec
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+average   |    0.209249 sec    |   0.304834 sec    |   0.419172 sec    |   0.686437 sec    |   34.321831 sec    |   0.499197 sec    |   24.959844 sec
+
+          |  bandwidth(seq)    |  bandwidth(column) |  bandwidth(row)
+--------------------------------------------------------------------
+1' attempt|    1.111570 GB/s   |   0.880811 GB/s   |   1.230105 GB/s
+2' attempt|    1.171449 GB/s   |   0.771805 GB/s   |   1.001263 GB/s
+3' attempt|    1.245477 GB/s   |   0.679697 GB/s   |   1.174586 GB/s
+4' attempt|    1.181200 GB/s   |   0.919305 GB/s   |   1.332623 GB/s
+5' attempt|    1.278425 GB/s   |   0.903605 GB/s   |   1.284888 GB/s
+---------------------------------------------------------------------
+average   |    1.194747 GB/s   |   0.820118 GB/s   |   1.192828 GB/s
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+process= 4      MATRIX SIZE = 4096
+          |  sequential time   |   mpi time(column) |   mpi time(row)   |  speedup(column)   | efficiency(column)  |   speedup(row)    |  efficiency(row)
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+1' attempt|    0.218276 sec    |   0.298559 sec    |   0.457813 sec    |   0.731098 sec    |   18.277455 sec    |   0.476780 sec    |   11.919503 sec
+2' attempt|    0.248435 sec    |   0.367628 sec    |   0.477132 sec    |   0.675778 sec    |   16.894447 sec    |   0.520683 sec    |   13.017086 sec
+3' attempt|    0.204643 sec    |   0.334271 sec    |   0.431045 sec    |   0.612206 sec    |   15.305139 sec    |   0.474759 sec    |   11.868976 sec
+4' attempt|    0.227128 sec    |   0.358636 sec    |   0.335345 sec    |   0.633310 sec    |   15.832739 sec    |   0.677296 sec    |   16.932402 sec
+5' attempt|    0.214799 sec    |   0.313149 sec    |   0.456316 sec    |   0.685932 sec    |   17.148308 sec    |   0.470725 sec    |   11.768121 sec
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+average   |    0.222656 sec    |   0.334449 sec    |   0.431530 sec    |   0.665741 sec    |   16.643515 sec    |   0.515969 sec    |   12.899218 sec
+
+          |  bandwidth(seq)    |  bandwidth(column) |  bandwidth(row)
+--------------------------------------------------------------------
+1' attempt|    1.145338 GB/s   |   0.837355 GB/s   |   1.092149 GB/s
+2' attempt|    1.006300 GB/s   |   0.680036 GB/s   |   1.047928 GB/s
+3' attempt|    1.221642 GB/s   |   0.747897 GB/s   |   1.159972 GB/s
+4' attempt|    1.100703 GB/s   |   0.697086 GB/s   |   1.491004 GB/s
+5' attempt|    1.163878 GB/s   |   0.798342 GB/s   |   1.095733 GB/s
+---------------------------------------------------------------------
+average   |    1.122808 GB/s   |   0.747499 GB/s   |   1.158668 GB/s
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+process= 8      MATRIX SIZE = 4096
+          |  sequential time   |   mpi time(column) |   mpi time(row)   |  speedup(column)   | efficiency(column)  |   speedup(row)    |  efficiency(row)
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+1' attempt|    0.471988 sec    |   0.588737 sec    |   2.160209 sec    |   0.801696 sec    |   10.021205 sec    |   0.218492 sec    |   2.731147 sec
+2' attempt|    0.231966 sec    |   0.312487 sec    |   2.303724 sec    |   0.742321 sec    |   9.279013 sec    |   0.100692 sec    |   1.258646 sec
+3' attempt|    0.257481 sec    |   0.677413 sec    |   2.303247 sec    |   0.380094 sec    |   4.751180 sec    |   0.111790 sec    |   1.397379 sec
+4' attempt|    0.448897 sec    |   0.293845 sec    |   0.318712 sec    |   1.527663 sec    |   19.095782 sec    |   1.408469 sec    |   17.605863 sec
+5' attempt|    0.195793 sec    |   0.249574 sec    |   0.307704 sec    |   0.784508 sec    |   9.806355 sec    |   0.636301 sec    |   7.953764 sec
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+average   |    0.321225 sec    |   0.424411 sec    |   1.478720 sec    |   0.756872 sec    |   9.460896 sec    |   0.217232 sec    |   2.715397 sec
+
+          |  bandwidth(seq)    |  bandwidth(column) |  bandwidth(row)
+--------------------------------------------------------------------
+1' attempt|    0.529675 GB/s   |   0.424639 GB/s   |   0.231459 GB/s
+2' attempt|    1.077745 GB/s   |   0.800034 GB/s   |   0.217040 GB/s
+3' attempt|    0.970946 GB/s   |   0.369051 GB/s   |   0.217085 GB/s
+4' attempt|    0.556921 GB/s   |   0.850788 GB/s   |   1.568813 GB/s
+5' attempt|    1.276861 GB/s   |   1.001709 GB/s   |   1.624937 GB/s
+---------------------------------------------------------------------
+average   |    0.778271 GB/s   |   0.589052 GB/s   |   0.338131 GB/s
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+process= 16      MATRIX SIZE = 4096
+          |  sequential time   |   mpi time(column) |   mpi time(row)   |  speedup(column)   | efficiency(column)  |   speedup(row)    |  efficiency(row)
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+1' attempt|    0.248743 sec    |   0.374698 sec    |   2.367916 sec    |   0.663849 sec    |   4.149055 sec    |   0.105047 sec    |   0.656544 sec
+2' attempt|    0.223629 sec    |   0.325613 sec    |   2.473547 sec    |   0.686792 sec    |   4.292452 sec    |   0.090408 sec    |   0.565050 sec
+3' attempt|    0.203497 sec    |   0.320811 sec    |   6.256429 sec    |   0.634319 sec    |   3.964494 sec    |   0.032526 sec    |   0.203288 sec
+4' attempt|    0.219786 sec    |   0.300902 sec    |   5.722798 sec    |   0.730424 sec    |   4.565153 sec    |   0.038405 sec    |   0.240033 sec
+5' attempt|    0.208680 sec    |   0.323089 sec    |   1.610421 sec    |   0.645892 sec    |   4.036825 sec    |   0.129581 sec    |   0.809883 sec
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+average   |    0.220867 sec    |   0.329022 sec    |   3.686222 sec    |   0.671282 sec    |   4.195512 sec    |   0.059917 sec    |   0.374480 sec
+
+          |  bandwidth(seq)    |  bandwidth(column) |  bandwidth(row)
+--------------------------------------------------------------------
+1' attempt|    1.005055 GB/s   |   0.667206 GB/s   |   0.211156 GB/s
+2' attempt|    1.117925 GB/s   |   0.767784 GB/s   |   0.202139 GB/s
+3' attempt|    1.228521 GB/s   |   0.779276 GB/s   |   0.079918 GB/s
+4' attempt|    1.137470 GB/s   |   0.830838 GB/s   |   0.087370 GB/s
+5' attempt|    1.198004 GB/s   |   0.773783 GB/s   |   0.310478 GB/s
+---------------------------------------------------------------------
+average   |    1.131904 GB/s   |   0.759828 GB/s   |   0.135640 GB/s
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+process= 32      MATRIX SIZE = 4096
+          |  sequential time   |   mpi time(column) |   mpi time(row)   |  speedup(column)   | efficiency(column)  |   speedup(row)    |  efficiency(row)
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+1' attempt|    0.496313 sec    |   1.164572 sec    |   0.000000 sec    |   0.426177 sec    |   1.331802 sec    |   2081689.000000 sec    |   6505278.125000 sec
+2' attempt|    0.372323 sec    |   0.866353 sec    |   0.000000 sec    |   0.429759 sec    |   1.342996 sec    |   1561634.000000 sec    |   4880106.250000 sec
+3' attempt|    0.217541 sec    |   0.417479 sec    |   0.000000 sec    |   0.521084 sec    |   1.628387 sec    |   912435.000000 sec    |   2851359.375000 sec
+4' attempt|    0.177793 sec    |   0.391414 sec    |   0.000000 sec    |   0.454233 sec    |   1.419479 sec    |   745719.000000 sec    |   2330371.875000 sec
+5' attempt|    0.371140 sec    |   1.416764 sec    |   0.000000 sec    |   0.261963 sec    |   0.818634 sec    |   inf sec    |   inf sec
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+average   |    0.327022 sec    |   0.851316 sec    |   0.000000 sec    |   0.384137 sec    |   1.200428 sec    |   1714537.250000 sec    |   5357928.906250 sec
+
+          |  bandwidth(seq)    |  bandwidth(column) |  bandwidth(row)
+--------------------------------------------------------------------
+1' attempt|    0.503714 GB/s   |   0.214672 GB/s   |   2097156.000000 GB/s
+2' attempt|    0.671461 GB/s   |   0.288567 GB/s   |   2097156.000000 GB/s
+3' attempt|    1.149206 GB/s   |   0.598835 GB/s   |   2097156.000000 GB/s
+4' attempt|    1.406128 GB/s   |   0.638712 GB/s   |   2097156.000000 GB/s
+5' attempt|    0.673601 GB/s   |   0.176459 GB/s   |   inf GB/s
+---------------------------------------------------------------------
+average   |    0.764474 GB/s   |   0.293664 GB/s   |   2621445.000000 GB/s
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+process= 64      MATRIX SIZE = 4096

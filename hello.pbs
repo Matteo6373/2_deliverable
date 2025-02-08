@@ -1,0 +1,60 @@
+#!/bin/bash
+# Job name
+#PBS -N name
+# Output files
+#PBS -o ./results.o
+#PBS -e ./name.e
+# Queue name
+#PBS -q short_cpuQ
+# Set the maximum wall time
+#PBS -l walltime=0:02:00
+# Number of nodes, cpus, mpi processors and amount of memory
+#PBS -l select=1:ncpus=4:mpiprocs=64:mem=8gb
+
+# Modules for python and MPI
+module load gcc91
+module load mpich-3.2.1--gcc-9.1.0
+
+g++() {
+    g++-9.1.0 "$@"
+}
+
+g++ --version
+
+
+
+# Print the name of the file that contains the list of the nodes assigned to the job and list all the nodes
+NODES=$(cat $PBS_NODEFILE)
+echo The running nodes are $NODES
+
+# Get the list of unique nodes assigned to the job
+NODES=$(sort -u $PBS_NODEFILE)
+echo The running nodes are $NODES
+
+# Loop through each node and get architecture information
+for NODE in $NODES; do
+    echo "Node: $NODE"
+    ssh $NODE "lscpu"
+done
+
+# Select the working directory 
+cd 2_deliverable
+
+# the code should be previously compiled
+#mpicc code_mpi.c -o code.out
+mpicxx -o mt.out matrix_transposition.cpp -O2
+
+# Run the code
+dimension=64
+for i in $(seq 0 6)
+do
+  process=1
+  for n in $(seq 0 6);
+  do
+    echo "process= $process      MATRIX SIZE = $dimension"
+    mpirun -np $process ./mt.out $dimension
+    echo "-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+"
+    let process="2*process"
+  done
+  let dimension="2*dimension"
+done
